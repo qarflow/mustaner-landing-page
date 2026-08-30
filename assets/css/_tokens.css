@@ -1,0 +1,285 @@
+/* ============================================================================
+   MUSTANER — design tokens
+   Two complete themes. `:root` is LIGHT (the default the page ships in);
+   `:root[data-theme="dark"]` overrides only what changes.
+
+   Nothing here is guessed. Every brand hex was sampled pixel-by-pixel from
+   the official brand files in /brand — the logo artwork is the authority,
+   the background plate supplies the two lifted tints.
+   ========================================================================== */
+
+:root {
+  /* ==========================================================================
+     BRAND CONSTANTS — identical in both themes. Do not tint, do not harmonise.
+     ======================================================================== */
+  --brand-green:       #007A57;  /* logo green   — sampled from colored logo.png */
+  --brand-blue:        #0056AD;  /* logo blue    — sampled from colored logo.png */
+  --brand-teal:        #00726A;  /* the midpoint where the wordmark crosses over */
+  --brand-green-lift:  #009A6B;  /* plate green  — sampled from background.png   */
+  --brand-blue-lift:   #0068DA;  /* plate blue   — sampled from background.png   */
+  --brand-green-hi:    #00D18F;  /* lifted for legibility on a dark ground       */
+  --brand-blue-hi:     #4AA6F5;
+  --brand-base:        #000000;
+
+  /* ==========================================================================
+     LIGHT THEME — the default
+     Page is a barely-off-white so that pure-white cards lift off it. Cards are
+     #FFF with a hairline and a soft shadow; grey cards read as cheap.
+     ======================================================================== */
+  color-scheme: light;
+
+  --bg:             #FBFCFC;
+  --surface-1:      #FFFFFF;   /* cards                       */
+  --surface-2:      #FFFFFF;   /* sticky bar, modal           */
+  --surface-3:      #F1F4F6;   /* input fields, chips         */
+  --surface-hover:  #F5F8F9;
+  --scrim:          rgba(10,18,20,.46);
+  --scrim-soft:     rgba(10,18,20,.28);
+
+  /* hairlines — contrast on #FBFCFC: ink 17.6:1 · ink-2 8.2:1 · ink-3 4.7:1 */
+  --hair:         1px;
+  --rail:         2px;
+  --line:         rgba(10,18,20,.10);
+  --line-2:       rgba(10,18,20,.18);
+  --line-strong:  rgba(10,18,20,.30);
+  --line-brand:   rgba(0,122,87,.48);
+  --line-dashed:  rgba(10,18,20,.24);
+
+  --ink:            #0A1214;
+  --ink-2:          #46545A;
+  --ink-3:          #66757B;
+  --ink-4:          #9AA6AB;   /* decorative only — never body copy */
+  --ink-on-accent:  #FFFFFF;
+  --ink-on-plate:   #FFFFFF;   /* the plate is dark in BOTH themes  */
+
+  --accent:        var(--brand-green);
+  --accent-2:      var(--brand-blue);
+  --accent-dim:    rgba(0,122,87,.10);
+  --accent-2-dim:  rgba(0,86,173,.09);
+
+  /* phase colour coding, shared by curriculum / method / schedule */
+  --phase-1: #0056AD;
+  --phase-2: #0068DA;
+  --phase-3: #00726A;
+  --phase-4: #007A57;
+
+  /* ==========================================================================
+     GRADIENTS
+     --grad-plate reproduces background.png exactly: green top-INLINE-END,
+     blue bottom-INLINE-START, the opposite two corners falling off to black.
+     It stays DARK in both themes — it is the brand's own artwork, and in the
+     light theme it becomes the page's anchor rather than its ground.
+     ======================================================================== */
+  --grad-brand:     linear-gradient(45deg, #0056AD 0%, #00726A 55%, #007A57 100%);
+  --grad-brand-rev: linear-gradient(225deg, #0056AD 0%, #00726A 55%, #007A57 100%);
+  --grad-line:      linear-gradient(45deg, #0068DA 0%, #009A6B 100%);
+
+  --grad-plate:
+    radial-gradient(125% 125% at 100% 0%,
+      #009A6B 0%, #007A57 30%, rgba(0,122,87,0) 62%),
+    radial-gradient(125% 125% at 0% 100%,
+      #0068DA 0%, #0056AD 22%, rgba(0,86,173,0) 62%),
+    #000000;
+
+  /* a light wash of the same geometry, for section backgrounds */
+  --grad-plate-quiet:
+    radial-gradient(120% 120% at 100% 0%,
+      rgba(0,154,107,.13) 0%, rgba(0,122,87,.06) 34%, rgba(255,255,255,0) 64%),
+    radial-gradient(120% 120% at 0% 100%,
+      rgba(0,104,218,.12) 0%, rgba(0,86,173,.05) 30%, rgba(255,255,255,0) 64%),
+    var(--bg);
+
+  /* veils sit over photography, which is dark in both themes */
+  --grad-veil-block-end:
+    linear-gradient(to top, rgba(0,0,0,.88) 0%, rgba(0,0,0,.62) 34%, rgba(0,0,0,0) 78%);
+  --grad-veil-full:
+    linear-gradient(to bottom, rgba(0,0,0,.30) 0%, rgba(0,0,0,.62) 100%);
+
+  --grad-rule:
+    linear-gradient(90deg,
+      rgba(0,104,218,0) 0%, rgba(0,104,218,.42) 18%,
+      rgba(0,154,107,.42) 82%, rgba(0,154,107,0) 100%);
+
+  /* ==========================================================================
+     NOTCH MARKS — the hollow corner squares of the brand's Kufic geometry
+     ======================================================================== */
+  --notch-size: 9px;
+  --notch-inset: 14px;
+  --notch-green: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='9'%3E%3Crect x='.5' y='.5' width='8' height='8' fill='none' stroke='%23007A57' stroke-width='1'/%3E%3C/svg%3E");
+  --notch-blue:  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='9'%3E%3Crect x='.5' y='.5' width='8' height='8' fill='none' stroke='%230056AD' stroke-width='1'/%3E%3C/svg%3E");
+
+  /* ==========================================================================
+     DEPTH — real shadows in light, coloured glow in dark
+     ======================================================================== */
+  --glow-green:  0 16px 40px -18px rgba(0,122,87,.42);
+  --glow-blue:   0 16px 40px -18px rgba(0,86,173,.40);
+  --glow-plate:  0 50px 110px -50px rgba(0,122,87,.40),
+                 0 -24px 90px -60px rgba(0,86,173,.34);
+  --edge-inset:  0 0 0 0 rgba(0,0,0,0);
+  --shadow-card: 0 1px 2px rgba(10,18,20,.04), 0 10px 28px -16px rgba(10,18,20,.16);
+  --shadow-modal: 0 40px 100px -30px rgba(10,18,20,.36), 0 0 0 1px var(--line);
+  --focus-ring:  0 0 0 2px var(--bg), 0 0 0 4px var(--accent);
+
+  /* photography treatment — light theme keeps images brighter */
+  --img-filter:      grayscale(.82) contrast(1.04);
+  --img-filter-flat: grayscale(1) contrast(1.05) brightness(.95);
+
+  --footer-bg: #F1F4F6;
+
+  /* Client logos arrive as dark marks on a WHITE ground (JPEG, no alpha).
+     Light theme keeps them as-is; dark theme inverts so the white ground
+     goes black and the mark comes up light. */
+  --logo-filter: grayscale(1) contrast(1.08);
+
+  /* ==========================================================================
+     RADII — the brand is square. Restraint here is the whole look.
+     ======================================================================== */
+  --r-1: 2px;
+  --r-2: 4px;
+  --r-3: 6px;
+  --r-4: 10px;
+  --r-device: 30px;   /* the 9:16 video bezel — the ONE soft shape */
+  --r-pill: 999px;
+
+  /* ==========================================================================
+     SPACE — 4px base
+     ======================================================================== */
+  --sp-1:  0.25rem;
+  --sp-2:  0.5rem;
+  --sp-3:  0.75rem;
+  --sp-4:  1rem;
+  --sp-5:  1.25rem;
+  --sp-6:  1.5rem;
+  --sp-8:  2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+  --sp-32: 8rem;
+
+  --gutter:     clamp(1.25rem, 4.5vw, 4.5rem);
+  --section-y:  clamp(4.5rem, 9vw, 9rem);
+  --maxw:       1240px;
+  --maxw-wide:  1440px;
+  --maxw-text:  62ch;
+  --grid-gap:   clamp(1rem, 2.2vw, 2rem);
+
+  --header-h:      64px;
+  --quickbar-h:    68px;
+  --quickbar-h-m:  56px;
+
+  /* ==========================================================================
+     MOTION & LAYERS
+     ======================================================================== */
+  --e-out:    cubic-bezier(.16,1,.3,1);
+  --e-in-out: cubic-bezier(.65,0,.35,1);
+  --t-1: 160ms;
+  --t-2: 320ms;
+  --t-3: 520ms;
+  --t-4: 800ms;
+
+  --z-base: 1;
+  --z-raised: 10;
+  --z-sticky: 60;
+  --z-fab: 70;
+  --z-header: 80;
+  --z-modal: 100;
+}
+
+/* ============================================================================
+   DARK THEME
+   Near-blacks are cool-shifted (a trace of blue) so they read as the same
+   material as the gradient, never as neutral "dark grey". The brand's own
+   greens and blues are too deep to sit on black, so the accents lift to the
+   plate tints and beyond — the hue is preserved, the value is not.
+   ========================================================================== */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg:             #000000;
+  --surface-1:      #06090B;
+  --surface-2:      #0B1013;
+  --surface-3:      #121A1E;
+  --surface-hover:  #161F23;
+  --scrim:          rgba(0,0,0,.80);
+  --scrim-soft:     rgba(0,0,0,.55);
+
+  --line:         rgba(255,255,255,.085);
+  --line-2:       rgba(255,255,255,.145);
+  --line-strong:  rgba(255,255,255,.24);
+  --line-brand:   rgba(0,209,143,.42);
+  --line-dashed:  rgba(255,255,255,.20);
+
+  /* never pure white on true black — it halates at body sizes */
+  --ink:            #EFF4F5;
+  --ink-2:          #A9B5B9;
+  --ink-3:          #808D92;
+  --ink-4:          #4A5559;
+  --ink-on-accent:  #00140E;
+  --ink-on-plate:   #FFFFFF;
+
+  --accent:        var(--brand-green-hi);
+  --accent-2:      var(--brand-blue-hi);
+  --accent-dim:    rgba(0,209,143,.13);
+  --accent-2-dim:  rgba(74,166,245,.13);
+
+  --phase-1: #0068DA;
+  --phase-2: #4AA6F5;
+  --phase-3: #00A87A;
+  --phase-4: #00D18F;
+
+  --grad-brand:     linear-gradient(45deg, #0068DA 0%, #00897C 55%, #00C88C 100%);
+  --grad-brand-rev: linear-gradient(225deg, #0068DA 0%, #00897C 55%, #00C88C 100%);
+  --grad-line:      linear-gradient(45deg, #4AA6F5 0%, #00D18F 100%);
+
+  --grad-plate-quiet:
+    radial-gradient(120% 120% at 100% 0%,
+      rgba(0,154,107,.22) 0%, rgba(0,122,87,.11) 34%, rgba(0,0,0,0) 64%),
+    radial-gradient(120% 120% at 0% 100%,
+      rgba(0,104,218,.20) 0%, rgba(0,86,173,.10) 30%, rgba(0,0,0,0) 64%),
+    #000000;
+
+  --grad-veil-block-end:
+    linear-gradient(to top, #000 0%, rgba(0,0,0,.74) 34%, rgba(0,0,0,0) 78%);
+
+  --grad-rule:
+    linear-gradient(90deg,
+      rgba(74,166,245,0) 0%, rgba(74,166,245,.55) 18%,
+      rgba(0,209,143,.55) 82%, rgba(0,209,143,0) 100%);
+
+  --notch-green: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='9'%3E%3Crect x='.5' y='.5' width='8' height='8' fill='none' stroke='%2300D18F' stroke-width='1'/%3E%3C/svg%3E");
+  --notch-blue:  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='9'%3E%3Crect x='.5' y='.5' width='8' height='8' fill='none' stroke='%234AA6F5' stroke-width='1'/%3E%3C/svg%3E");
+
+  /* on true black a drop shadow is invisible — depth comes from coloured
+     glow plus a 1px inset top highlight */
+  --glow-green:  0 24px 90px -40px rgba(0,209,143,.62);
+  --glow-blue:   0 24px 90px -40px rgba(74,166,245,.58);
+  --glow-plate:  0 70px 180px -80px rgba(0,209,143,.50),
+                 0 -40px 140px -90px rgba(0,104,218,.46);
+  --edge-inset:  inset 0 1px 0 0 rgba(255,255,255,.045);
+  --shadow-card: var(--edge-inset), 0 30px 70px -55px #000;
+  --shadow-modal: 0 40px 120px -40px #000, 0 0 0 1px var(--line-2);
+
+  --img-filter:      grayscale(.85) contrast(1.06);
+  --img-filter-flat: grayscale(1) contrast(1.08) brightness(.82);
+
+  --footer-bg: #06090B;
+  --logo-filter: invert(1) grayscale(1) contrast(1.15) brightness(1.1);
+}
+
+/* Base ground. The theme is an explicit choice, not a system reading:
+   the page ships light and remembers whatever the visitor picks. */
+html { background: var(--bg); }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--accent); color: var(--ink-on-accent); }
+img { image-orientation: from-image; max-inline-size: 100%; }
+
+/* Forced-LTR numeric utility — mandatory for IBAN, phone, account numbers,
+   time ranges and URLs when the page is in Arabic. */
+.ltr-num { direction: ltr; unicode-bidi: isolate; font-variant-numeric: tabular-nums; }

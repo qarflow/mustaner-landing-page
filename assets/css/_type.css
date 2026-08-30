@@ -1,0 +1,215 @@
+/* ============================================================================
+   MUSTANER — typography
+   One Latin display + one Latin text + one mono data spine, plus an Arabic
+   face chosen to match the grotesque at weight.
+
+   Archivo carries a width axis (62–125); that semi-condensed setting is half
+   the page's typographic identity. IBM Plex Sans Arabic is the Arabic pair —
+   same humanist-grotesque skeleton, real 300–700 range. JetBrains Mono is the
+   data spine: every date, index, price, session number and IBAN.
+
+   Every stack ends in real Arabic-capable system fallbacks, because this page
+   may be opened from file:// with no network.
+   ========================================================================== */
+
+:root {
+  --ff-display: "Archivo", "Inter", "Segoe UI", Tahoma, system-ui, sans-serif;
+  --ff-text:    "Inter", "Segoe UI", Tahoma, system-ui, sans-serif;
+  --ff-mono:    "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  --ff-ar:      "IBM Plex Sans Arabic", "Segoe UI", Tahoma, "Geeza Pro", sans-serif;
+
+  --wdth-display: 88;
+  --wdth-wordmark: 78;
+
+  /* ---- fluid scale, 360px → 1440px ---- */
+  --fs-display: clamp(2.625rem, 1.15rem + 6.2vw, 5.75rem);
+  --fs-h2:      clamp(1.875rem, 1.05rem + 3.0vw, 3.375rem);
+  --fs-h3:      clamp(1.3125rem, 1.05rem + 1.1vw, 1.75rem);
+  --fs-h4:      clamp(1.0625rem, 1rem + 0.35vw, 1.1875rem);
+  --fs-lead:    clamp(1.0625rem, 0.95rem + 0.55vw, 1.3125rem);
+  --fs-body:    clamp(0.9375rem, 0.9rem + 0.22vw, 1.0625rem);
+  --fs-sm:      0.875rem;
+  --fs-xs:      0.8125rem;
+  --fs-meta:    0.75rem;
+  --fs-numeral: clamp(3.25rem, 1.6rem + 6.4vw, 6.5rem);
+  --fs-index:   clamp(0.875rem, 0.8rem + 0.3vw, 1rem);
+
+  --lh-display: 0.92;
+  --lh-h2:      1.03;
+  --lh-h3:      1.18;
+  --lh-body:    1.65;
+  --lh-lead:    1.55;
+  --lh-meta:    1.2;
+
+  /* tracking is Latin-only — see the Arabic reset at the foot of this file */
+  --ls-display: -0.025em;
+  --ls-h2:      -0.018em;
+  --ls-h3:      -0.008em;
+  --ls-body:    0;
+  --ls-meta:    0.16em;
+  --ls-wordmark: 0.2em;
+}
+
+body {
+  font-family: var(--ff-text);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  letter-spacing: var(--ls-body);
+  font-weight: 400;
+}
+
+h1, .t-display {
+  font-family: var(--ff-display);
+  font-variation-settings: "wdth" var(--wdth-display), "wght" 700;
+  font-size: var(--fs-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--ls-display);
+  text-wrap: balance;
+  margin: 0;
+}
+
+h2, .t-h2 {
+  font-family: var(--ff-display);
+  font-variation-settings: "wdth" var(--wdth-display), "wght" 700;
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
+  letter-spacing: var(--ls-h2);
+  text-wrap: balance;
+  margin: 0;
+}
+
+h3, .t-h3 {
+  font-family: var(--ff-display);
+  font-variation-settings: "wdth" 95, "wght" 600;
+  font-size: var(--fs-h3);
+  line-height: var(--lh-h3);
+  letter-spacing: var(--ls-h3);
+  margin: 0;
+}
+
+h4, .t-h4 {
+  font-family: var(--ff-text);
+  font-weight: 600;
+  font-size: var(--fs-h4);
+  line-height: 1.35;
+  margin: 0;
+}
+
+.t-lead {
+  font-size: var(--fs-lead);
+  line-height: var(--lh-lead);
+  color: var(--ink-2);
+  max-inline-size: 46ch;
+}
+
+p { max-inline-size: var(--maxw-text); margin-block: 0 var(--sp-4); }
+
+/* ---- the mono data spine ----
+   Eyebrows, phase codes, dates, session indices, prices, IBAN, table headers.
+   This is what gives the page its institutional rigour. */
+.mono, .eyebrow, .t-index, time, .data-label {
+  font-family: var(--ff-mono);
+  font-size: var(--fs-meta);
+  font-weight: 500;
+  line-height: var(--lh-meta);
+  letter-spacing: var(--ls-meta);
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-3);
+}
+
+.t-index {
+  font-size: var(--fs-index);
+  font-weight: 700;
+  color: var(--ink-4);
+  letter-spacing: 0.08em;
+}
+
+.t-numeral {
+  font-family: var(--ff-display);
+  font-variation-settings: "wdth" 82, "wght" 700;
+  font-size: var(--fs-numeral);
+  line-height: 0.86;
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ============================================================================
+   ARABIC / RTL TYPOGRAPHY
+   Three non-negotiables:
+   1. letter-spacing must be 0 — positive tracking breaks cursive joins.
+   2. text-transform:uppercase is a no-op in Arabic, so eyebrows lose their
+      differentiation; weight and the gradient tick must carry it instead.
+   3. Arabic needs ~6% more optical size and ~12% more leading than Latin.
+   ========================================================================== */
+[lang="ar"] body,
+[lang="ar"] {
+  --ar-size: 1.06;
+  --ar-lead: 1.12;
+  font-family: var(--ff-ar);
+  font-size: calc(var(--fs-body) * 1.06);
+  line-height: calc(var(--lh-body) * 1.12);
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+[lang="ar"] h1, [lang="ar"] .t-display {
+  font-family: var(--ff-ar);
+  font-variation-settings: normal;
+  font-weight: 700;
+  font-size: calc(var(--fs-display) * 0.94);
+  line-height: 1.14;
+  letter-spacing: 0;
+}
+
+[lang="ar"] h2, [lang="ar"] .t-h2 {
+  font-family: var(--ff-ar);
+  font-variation-settings: normal;
+  font-weight: 700;
+  font-size: calc(var(--fs-h2) * 0.96);
+  line-height: 1.26;
+  letter-spacing: 0;
+}
+
+[lang="ar"] h3, [lang="ar"] .t-h3,
+[lang="ar"] h4, [lang="ar"] .t-h4 {
+  font-family: var(--ff-ar);
+  font-variation-settings: normal;
+  font-weight: 600;
+  line-height: 1.42;
+  letter-spacing: 0;
+}
+
+[lang="ar"] .t-lead { line-height: 1.8; max-inline-size: 44ch; }
+[lang="ar"] p { line-height: 1.85; }
+
+[lang="ar"] .eyebrow,
+[lang="ar"] .data-label {
+  font-family: var(--ff-ar);
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.5;
+}
+
+/* Numerals, dates, prices and codes stay in the mono spine even in Arabic —
+   Western digits throughout, per the brand's own brochure. */
+[lang="ar"] .mono-keep,
+[lang="ar"] time,
+[lang="ar"] .t-index,
+[lang="ar"] .t-numeral,
+[lang="ar"] .ltr-num {
+  font-family: var(--ff-mono);
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Latin technical terms inside Arabic copy keep the Latin text face so they
+   do not render in a fallback. */
+[lang="ar"] .lat {
+  font-family: var(--ff-text);
+  font-weight: 500;
+  letter-spacing: 0;
+  unicode-bidi: isolate;
+}
