@@ -1,0 +1,214 @@
+/* ============================================================================
+   MUSTANER — apply modal (centered, animated, non-scrolling)
+   ========================================================================== */
+
+dialog.modal {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  inline-size: min(520px, calc(100vw - 1.5rem));
+  max-block-size: calc(100dvh - 1.5rem);
+  padding: 0;
+  border: 0;
+  border-radius: var(--r-card, 16px);
+  background: transparent;
+  color: var(--ink);
+  overflow: hidden;
+  outline: none;
+  opacity: 0;
+  transform: translateY(18px) scale(0.96);
+  transition:
+    opacity 320ms var(--e-out),
+    transform 380ms var(--e-out),
+    overlay 320ms allow-discrete,
+    display 320ms allow-discrete;
+}
+
+dialog.modal[open] { display: block; }
+
+dialog.modal[open].is-open {
+  opacity: 1;
+  transform: none;
+}
+
+@starting-style {
+  dialog.modal[open].is-open {
+    opacity: 0;
+    transform: translateY(18px) scale(0.96);
+  }
+}
+
+dialog.modal.is-closing {
+  opacity: 0;
+  transform: translateY(12px) scale(0.97);
+}
+
+dialog.modal::backdrop {
+  background: rgba(6, 10, 12, .62);
+  opacity: 0;
+  transition: opacity 320ms var(--e-out), backdrop-filter 320ms var(--e-out), overlay 320ms allow-discrete, display 320ms allow-discrete;
+}
+@supports (backdrop-filter: blur(1px)) {
+  dialog.modal::backdrop { backdrop-filter: blur(10px); }
+}
+dialog.modal[open].is-open::backdrop { opacity: 1; }
+@starting-style {
+  dialog.modal[open].is-open::backdrop { opacity: 0; }
+}
+dialog.modal.is-closing::backdrop { opacity: 0; }
+
+.modal-panel {
+  position: relative;
+  padding: clamp(1.1rem, 2.8vw, 1.65rem);
+  border: 1px solid var(--line);
+  border-radius: inherit;
+  background: var(--surface-2);
+  box-shadow: var(--shadow-modal);
+  overflow: hidden;
+}
+
+.modal-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  margin-block-end: var(--sp-4);
+  text-align: start;
+}
+.modal-head .eyebrow { margin-block-end: var(--sp-1); }
+.modal-head .t-h3 {
+  font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  margin: 0;
+}
+.modal-sub {
+  color: var(--ink-2);
+  font-size: var(--fs-xs);
+  margin-block-start: var(--sp-1);
+  max-inline-size: 36ch;
+}
+
+.modal-close {
+  inline-size: 36px;
+  block-size: 36px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: var(--r-pill);
+  color: var(--ink-3);
+  flex: 0 0 auto;
+  background: var(--surface-3);
+  transition: color var(--t-1) var(--e-out), border-color var(--t-1) var(--e-out), background var(--t-1) var(--e-out);
+}
+.modal-close:hover {
+  color: var(--ink);
+  border-color: var(--line-2);
+  background: var(--surface-hover);
+}
+
+.form { display: grid; gap: var(--sp-3); }
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65rem 0.75rem;
+}
+.field { display: grid; gap: 0.3rem; }
+.field--full { grid-column: 1 / -1; }
+.field label {
+  font-size: var(--fs-xs);
+  color: var(--ink-2);
+  text-align: start;
+  font-weight: 600;
+}
+.field-opt { font-weight: 500; color: var(--ink-4); }
+.field input, .field textarea {
+  font: inherit;
+  font-size: var(--fs-sm);
+  color: var(--ink);
+  background: var(--surface-3);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.65rem 0.8rem;
+  inline-size: 100%;
+  text-align: start;
+  transition: border-color var(--t-1) var(--e-out), box-shadow var(--t-1) var(--e-out);
+}
+.field textarea {
+  resize: none;
+  min-block-size: 0;
+  block-size: 4.25rem;
+}
+.field input::placeholder, .field textarea::placeholder { color: var(--ink-4); }
+.field input:focus, .field textarea:focus {
+  outline: none;
+  border-color: var(--line-brand);
+  box-shadow: var(--focus-ring);
+}
+.field input[aria-invalid="true"],
+.field textarea[aria-invalid="true"] {
+  border-color: #d64545;
+  box-shadow: 0 0 0 3px rgba(214, 69, 69, .15);
+}
+
+.form-error {
+  margin: 0;
+  padding: 0.55rem 0.75rem;
+  border-radius: 12px;
+  background: rgba(214, 69, 69, .1);
+  color: #b42318;
+  font-size: var(--fs-xs);
+  text-align: start;
+}
+:root[data-theme="dark"] .form-error {
+  color: #ffb4a8;
+  background: rgba(214, 69, 69, .18);
+}
+
+.form-submit {
+  inline-size: 100%;
+  border-radius: var(--r-pill);
+  --btn-py: 0.85rem;
+}
+
+.form-success {
+  display: grid;
+  gap: var(--sp-4);
+  justify-items: center;
+  text-align: center;
+  padding-block: var(--sp-6);
+  animation: modal-success-in 420ms var(--e-out) both;
+}
+.form-success[hidden] { display: none; }
+.form-success .ok {
+  inline-size: 64px;
+  block-size: 64px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: color-mix(in srgb, var(--icon, #EF9C21) 16%, transparent);
+  color: var(--icon, #EF9C21);
+  font-size: 1.35rem;
+}
+.form-success p {
+  margin: 0;
+  color: var(--ink-2);
+  max-inline-size: 32ch;
+}
+
+@keyframes modal-success-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (max-width: 560px) {
+  .form-grid { grid-template-columns: 1fr; }
+  .modal-panel { padding: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  dialog.modal,
+  dialog.modal::backdrop,
+  .form-success {
+    transition: none;
+    animation: none;
+  }
+}

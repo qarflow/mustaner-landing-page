@@ -1,0 +1,58 @@
+<header class="masthead" id="masthead">
+  <div class="shell-wide masthead-inner">
+    <a class="brand" href="#top" aria-label="Mustaner">
+      <img class="brand-word brand-word--color" src="assets/brand/wordmark-color.png" alt="Mustaner" width="546" height="128">
+      <img class="brand-word brand-word--white" src="assets/brand/wordmark-white.png" alt="Mustaner" width="546" height="128">
+    </a>
+
+    <nav class="nav nav--desktop" aria-label="Sections">
+      <a href="#top" data-nav="top" data-i18n="ui.nav_home">Home</a>
+      <a href="#overview" data-nav="overview" data-i18n="ui.nav_items.0.label">Overview</a>
+      <a href="#curriculum" data-nav="curriculum" data-i18n="ui.nav_items.1.label">Curriculum</a>
+      <a href="#schedule" data-nav="schedule" data-i18n="ui.nav_items.2.label">Schedule</a>
+      <a href="#fees" data-nav="fees" data-i18n="ui.nav_items.3.label">Fees</a>
+      <a href="#faq" data-nav="faq" data-i18n="ui.nav_items.4.label">FAQ</a>
+      <button class="lang-toggle nav-lang" type="button" aria-label="Switch language">
+        <i class="fa-solid fa-globe" aria-hidden="true"></i>
+        <span data-i18n="ui.lang_toggle">العربية</span>
+      </button>
+    </nav>
+
+    <div class="masthead-actions">
+      <button class="lang-toggle nav-lang-mobile" type="button" aria-label="Switch language">
+        <i class="fa-solid fa-globe" aria-hidden="true"></i>
+        <span data-i18n="ui.lang_toggle">العربية</span>
+      </button>
+      <button class="btn btn-nav-cta btn-sm btn-apply-top js-apply" type="button" data-i18n="hero.cta_secondary">Apply Now</button>
+      <button class="icon-toggle js-theme" type="button" aria-label="Switch theme" title="Switch theme">
+        <span class="only-light"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20.5 14.3A8.6 8.6 0 0 1 9.7 3.5a8.7 8.7 0 1 0 10.8 10.8Z" stroke-linejoin="round"/></svg></span><span class="only-dark"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.4v2.4M12 19.2v2.4M21.6 12h-2.4M4.8 12H2.4M18.8 5.2l-1.7 1.7M6.9 17.1l-1.7 1.7M18.8 18.8l-1.7-1.7M6.9 6.9 5.2 5.2" stroke-linecap="round"/></svg></span>
+      </button>
+      <button class="nav-burger" id="navBurger" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu" data-i18n-attr="aria-label|ui.menu_open">
+        <span class="nav-burger-lines" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav" hidden aria-hidden="true">
+  <button class="mobile-nav-scrim" id="navScrim" type="button" tabindex="-1" data-i18n-attr="aria-label|ui.menu_close" aria-label="Close menu"></button>
+  <nav class="mobile-nav-panel" id="siteNav" role="dialog" aria-modal="true" aria-labelledby="mobileNavTitle">
+    <div class="mobile-nav-top">
+      <p class="mobile-nav-title" id="mobileNavTitle" data-i18n="ui.menu">Menu</p>
+      <p class="mobile-nav-sub" data-i18n="hero.eyebrow">NEW CAIRO · SEP 28</p>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="#top" data-nav="top" data-i18n="ui.nav_home">Home</a>
+      <a href="#overview" data-nav="overview" data-i18n="ui.nav_items.0.label">Overview</a>
+      <a href="#curriculum" data-nav="curriculum" data-i18n="ui.nav_items.1.label">Curriculum</a>
+      <a href="#schedule" data-nav="schedule" data-i18n="ui.nav_items.2.label">Schedule</a>
+      <a href="#fees" data-nav="fees" data-i18n="ui.nav_items.3.label">Fees</a>
+      <a href="#faq" data-nav="faq" data-i18n="ui.nav_items.4.label">FAQ</a>
+    </div>
+    <div class="mobile-nav-actions">
+      <a class="btn btn-primary" href="https://app.fawaterk.com/paymentRequest/show/38638" target="_blank" rel="noopener" data-i18n="hero.cta_primary">Reserve Your Seat</a>
+      <button class="btn btn-ghost js-apply" type="button" data-i18n="hero.cta_secondary">Apply Now</button>
+      <a class="btn btn-whatsapp js-wa-link" href="https://wa.me/201092718547" target="_blank" rel="noopener" data-i18n="hero.cta_whatsapp">Ask on WhatsApp</a>
+    </div>
+  </nav>
+</div>

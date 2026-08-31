@@ -1,0 +1,31 @@
+<dialog class="lightbox" id="mediaLightbox" aria-modal="true" aria-labelledby="lightboxCap">
+  <div class="lightbox-chrome">
+    <p class="lightbox-count ltr-num" id="lightboxCount" aria-live="polite">1 / 14</p>
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close"
+            data-i18n-attr="aria-label|ui.close">
+      <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <div class="lightbox-stage" id="lightboxStage">
+    <button class="lightbox-nav lightbox-nav--prev" id="lightboxPrev" type="button" aria-label="Previous photo"
+            data-i18n-attr="aria-label|media.prev">
+      <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+    </button>
+
+    <figure class="lightbox-frame">
+      <img id="lightboxImg" src="" alt="" decoding="async">
+      <figcaption class="lightbox-meta">
+        <span class="lightbox-cap" id="lightboxCap"></span>
+      </figcaption>
+    </figure>
+
+    <button class="lightbox-nav lightbox-nav--next" id="lightboxNext" type="button" aria-label="Next photo"
+            data-i18n-attr="aria-label|media.next">
+      <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <div class="lightbox-thumbs" id="lightboxThumbs" role="tablist" aria-label="Gallery thumbnails"
+       data-i18n-attr="aria-label|media.thumbs_label"></div>
+</dialog>

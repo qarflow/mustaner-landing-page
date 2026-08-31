@@ -10,20 +10,29 @@ window.MUSTANER_COPY = {
    "og_description": "Ten in-person sessions, 40 hours, New Cairo. Classic strategy toolkits plus four sessions of applied AI. Starts Sep 28, 2026."
   },
   "hero": {
-   "eyebrow": "MUSTANER · NEW CAIRO COHORT · SEP 28, 2026",
-   "h1": "Strategic Thinking for Growth — Leave With a Strategy",
-   "subhead": "Ten sessions take you through the full strategic cycle: scanning the market, choosing a direction, and holding execution to KPIs with PESTEL, Porter's Five Forces, SWOT/TOWS, BCG, Ansoff, OKRs and the Balanced Scorecard. Four of the ten are applied AI, running those same frameworks against your own business.",
-   "proof_chips": [
-    "40 hours · 10 sessions",
-    "4 sessions of applied AI",
-    "In person · New Cairo",
-    "Starts Sep 28, 2026"
-   ],
-   "cta_primary": "Reserve Your Seat",
-   "cta_secondary": "Apply Now",
-   "cta_tertiary": "Download the Brochure",
-   "scroll_hint": "See how it works"
-  },
+      "brand": "Mustaner",
+      "eyebrow": "NEW CAIRO · SEP 28",
+      "h1": "Build the strategy your business will run",
+      "h1_plain": "Build the strategy",
+      "h1_mark": "your business will run",
+      "subhead": "40 hours. 10 live sessions in New Cairo. Classic strategy frameworks plus four applied-AI sessions — on your company, not a case study.",
+      "offer_price": "12,000 EGP",
+      "offer_was": "15,000",
+      "offer_tag": "Early Bird",
+      "offer_line": "Seats limited · starts Sep 28",
+      "proof_chips": [
+         "40 hours · 10 sessions",
+         "4 AI sessions",
+         "In person · New Cairo",
+         "Starts Sep 28"
+      ],
+      "cta_primary": "Reserve Your Seat",
+      "cta_secondary": "Apply Now",
+      "cta_whatsapp": "Ask on WhatsApp",
+      "cta_tertiary": "Download the Brochure",
+      "trust_line": "Talk before you pay — replies usually within hours.",
+      "scroll_hint": "See how it works"
+   },
   "quickinfo": {
    "cells": [
     {
@@ -73,42 +82,85 @@ window.MUSTANER_COPY = {
     }
    ],
    "lang_toggle": "العربية",
+   "nav_home": "Home",
+   "menu_open": "Open menu",
+   "menu_close": "Close menu",
+   "menu": "Menu",
+   "back_top": "Back to top",
    "whatsapp_label": "Chat on WhatsApp",
+   "whatsapp_bubble": "Have a question? Chat with us.",
+   "whatsapp_cta": "Chat now",
+   "whatsapp_prefill": "Hello Mustaner, I have a question about Strategic Thinking for Growth (Sep 28 cohort).",
    "play_video": "Play the programme video",
    "close": "Close",
    "skip_link": "Skip to main content"
   },
   "video": {
-   "eyebrow": "Course Introduction · 0:30",
+   "eyebrow": "Course Introduction",
    "headline": "See How the Programme Works",
+   "headline_plain": "See How the Programme",
+   "headline_mark": "Works",
    "body": "Thirty seconds is enough to see what you are buying: the room, the pace, and the four phases that take you from market diagnosis to a strategy your team can actually run. Watch it before you read anything else on this page.",
-   "caption": "0:30 · Sound on · Strategic Thinking for Growth, by Mustaner"
-  },
-  "overview": {
-   "eyebrow": "Course Overview",
-   "headline": "Strategy That Survives Contact With Execution",
-   "problem_label": "The problem",
-   "problem": "Growing companies in Egypt rarely lack ambition. They lack a strategy that holds: decisions made on instinct, a plan written in January that no one recognises by March, and teams that are busy without moving in the same direction.",
-   "answer_label": "What the programme does",
-   "answer": "40 hours, 10 sessions, 4 phases, in one room in New Cairo. You diagnose your market, choose a strategy you can defend, build the execution and measurement layer underneath it, then run the same cycle again with AI carrying the analysis.",
-   "pillars": [
+   "caption": "0:30 · Sound on · Strategic Thinking for Growth, by Mustaner",
+   "highlights": [
     {
-     "title": "The Full Strategic Cycle",
-     "body": "Four phases move you from market research and diagnosis to strategy selection, implementation and control, so nothing stops at theory."
+     "title": "Your company, not a case study",
+     "body": "Every framework is applied to your market and numbers"
     },
     {
-     "title": "Toolkits You Already Trust",
-     "body": "PESTEL, Porter's Five Forces, SWOT/TOWS, Value Chain, BCG, Ansoff, OKRs and the Balanced Scorecard, worked through real business cases rather than lectured."
+     "title": "Senior room by design",
+     "body": "CEOs, founders and managers who own the decision"
     },
     {
-     "title": "An Applied AI Layer",
-     "body": "Four of the ten sessions put AI to work on market intelligence, scenario planning, growth mapping and live KPI dashboards."
+     "title": "Strategy you can defend",
+     "body": "A plan with owners, KPIs and board-ready language"
+    },
+    {
+     "title": "Four applied AI sessions",
+     "body": "Research, scenarios, growth maps and live dashboards"
     }
    ]
   },
+  "overview": {
+      "eyebrow": "Course Overview",
+      "headline": "Strategy That Survives Contact With Execution",
+      "headline_plain": "Strategy That Survives Contact With",
+      "headline_mark": "Execution",
+      "problem_label": "The problem",
+      "problem": "Growing companies in Egypt rarely lack ambition. They lack a strategy that holds: decisions made on instinct, a plan written in January that no one recognises by March, and teams that are busy without moving in the same direction.",
+      "answer_label": "What the programme does",
+      "answer": "40 hours, 10 sessions, in one room in New Cairo. You diagnose your market, choose a strategy you can defend, build the execution layer underneath it, then amplify the same cycle with applied AI.",
+      "stats": [
+         "Hours in the room",
+         "Live sessions",
+         "Phases you finish",
+         "Outcomes you leave with"
+      ],
+      "cta_kicker": "Ready to put a real business through the cycle?",
+      "cta_note": "Early Bird seats are limited. Start with the curriculum, or message us to reserve yours.",
+      "cta_primary": "See the curriculum",
+      "cta_secondary": "Apply Now",
+      "pillars": [
+         {
+            "title": "The Full Strategic Cycle",
+            "body": "Four phases move you from market research and diagnosis to strategy selection, implementation and control, so nothing stops at theory."
+         },
+         {
+            "title": "Toolkits You Already Trust",
+            "body": "PESTEL, Porter's Five Forces, SWOT/TOWS, Value Chain, BCG, Ansoff, OKRs and the Balanced Scorecard, worked through real business cases rather than lectured."
+         },
+         {
+            "title": "An Applied AI Layer",
+            "body": "Four of the ten sessions put AI to work on market intelligence, scenario planning, growth mapping and live KPI dashboards."
+         }
+      ],
+      "lead": "One programme. Four phases. Seven outcomes you can take back to the business."
+   },
   "audience": {
    "eyebrow": "Who This Is For",
    "headline": "Built For The Person Who Owns The Decision",
+   "headline_plain": "Built For The Person Who Owns The",
+   "headline_mark": "Decision",
    "sub": "The room is senior by design. You will be working alongside people carrying the same weight of decision you carry.",
    "roles": [
     {
@@ -140,156 +192,186 @@ window.MUSTANER_COPY = {
    "not_for": "If you want a certificate for a CV, or you have no company or department to apply the work to between sessions, this is the wrong programme: every phase assumes a real business in front of you."
   },
   "outcomes": {
-   "eyebrow": "Outcomes",
-   "headline": "What you leave with",
-   "sub": "Seven results the programme is built around, written as what you will be able to do differently once the ten sessions end.",
-   "items": [
-    {
-     "title": "The Full Strategic Cycle",
-     "body": "You work a complete cycle on your own company — diagnosis, selection, execution, control — instead of handling one fragment of strategy at a time."
-    },
-    {
-     "title": "Globally Recognized Toolkits",
-     "body": "You apply PESTEL, Porter's Five Forces, SWOT/TOWS, Value Chain, BCG and Ansoff the way operating companies actually use them, not as textbook diagrams."
-    },
-    {
-     "title": "Highly Practical and Interactive",
-     "body": "You spend the 40 hours in exercises, business cases and live discussion, so each framework leaves the room already applied to a decision you own."
-    },
-    {
-     "title": "A Shift to Strategic Mindset",
-     "body": "You read a market before you react to it, and separate the few decisions that shape the next three years from the ones that fill next week."
-    },
-    {
-     "title": "Bridge Between Theory and Execution",
-     "body": "You convert an agreed strategy into objectives, owners, resources and KPIs that survive contact with the operating calendar."
-    },
-    {
-     "title": "From Operational to Strategic Leadership",
-     "body": "You move from managing the work in front of you to setting the direction others work toward, with the language to defend that direction to a board or a partner."
-    },
-    {
-     "title": "Integrated AI for Business Impact",
-     "body": "You use AI across four full sessions to run research, build analyses, test scenarios and monitor performance in hours rather than weeks."
-    }
-   ]
-  },
+      "eyebrow": "Outcomes",
+      "headline": "What you leave with",
+      "headline_plain": "What you leave",
+      "headline_mark": "with",
+      "sub": "Seven results the programme is built around — what you will be able to do differently once the ten sessions end.",
+      "feature_tag": "4 AI sessions",
+      "items": [
+         {
+            "title": "The Full Strategic Cycle",
+            "body": "You work a complete cycle on your own company — diagnosis, selection, execution, control — instead of handling one fragment of strategy at a time."
+         },
+         {
+            "title": "Globally Recognized Toolkits",
+            "body": "You apply PESTEL, Porter's Five Forces, SWOT/TOWS, Value Chain, BCG and Ansoff the way operating companies actually use them, not as textbook diagrams."
+         },
+         {
+            "title": "Highly Practical and Interactive",
+            "body": "You spend the 40 hours in exercises, business cases and live discussion, so each framework leaves the room already applied to a decision you own."
+         },
+         {
+            "title": "A Shift to Strategic Mindset",
+            "body": "You read a market before you react to it, and separate the few decisions that shape the next three years from the ones that fill next week."
+         },
+         {
+            "title": "Bridge Between Theory and Execution",
+            "body": "You convert an agreed strategy into objectives, owners, resources and KPIs that survive contact with the operating calendar."
+         },
+         {
+            "title": "From Operational to Strategic Leadership",
+            "body": "You move from managing the work in front of you to setting the direction others work toward, with the language to defend that direction to a board or a partner."
+         },
+         {
+            "title": "Integrated AI for Business Impact",
+            "body": "You use AI across four full sessions to run research, build analyses, test scenarios and monitor performance in hours rather than weeks."
+         }
+      ]
+   },
   "curriculum": {
-   "eyebrow": "Curriculum",
-   "headline": "Ten sessions. Four phases. 40 hours.",
-   "sub": "Six sessions on classic strategy practice, four on applying AI to the same cycle. Monday and Wednesday, 6:00 PM to 10:00 PM, in person in New Cairo.",
-   "sessions": [
-    {
-     "number": "01",
-     "phase": "Phase 01",
-     "title": "Kickstart Strategic Thinking",
-     "points": [
-      "Defining strategic vs. operational planning",
-      "Strategic pillars: vision, mission, values, objectives"
-     ]
-    },
-    {
-     "number": "02",
-     "phase": "Phase 01",
-     "title": "Smart Strategy Formulation",
-     "points": [
-      "Macro and micro environment scanning (PESTEL, Porter's Five Forces)",
-      "Comprehensive competitor analysis"
-     ]
-    },
-    {
-     "number": "03",
-     "phase": "Phase 02",
-     "title": "Internal Environment Analysis",
-     "points": [
-      "Identifying core competencies and resources",
-      "Value Chain analysis and the SWOT/TOWS matrix"
-     ]
-    },
-    {
-     "number": "04",
-     "phase": "Phase 02",
-     "title": "Strategic Decision-Making",
-     "points": [
-      "Corporate, business and functional strategies",
-      "Growth models: BCG Matrix, Ansoff Model",
-      "Defining a sustainable competitive advantage"
-     ]
-    },
-    {
-     "number": "05",
-     "phase": "Phase 03",
-     "title": "Execution and Alignment",
-     "points": [
-      "Strategy implementation frameworks (e.g. OKRs)",
-      "Resource allocation and cross-functional alignment"
-     ]
-    },
-    {
-     "number": "06",
-     "phase": "Phase 03",
-     "title": "Performance Measurement",
-     "points": [
-      "Using the Balanced Scorecard for strategic monitoring",
-      "KPI development and strategic control"
-     ]
-    },
-    {
-     "number": "07",
-     "phase": "Phase 04",
-     "title": "AI-Powered Market Intelligence",
-     "points": [
-      "AI-based market research and trend analysis",
-      "AI competitive intelligence and customer insights"
-     ]
-    },
-    {
-     "number": "08",
-     "phase": "Phase 04",
-     "title": "AI Strategic Analysis",
-     "points": [
-      "AI-powered SWOT, TOWS and Value Chain analysis",
-      "AI-powered PESTEL and Porter's Five Forces analysis"
-     ]
-    },
-    {
-     "number": "09",
-     "phase": "Phase 04",
-     "title": "AI Strategy Formulation",
-     "points": [
-      "AI scenario planning and strategic decision-making",
-      "AI growth strategy development and opportunity mapping"
-     ]
-    },
-    {
-     "number": "10",
-     "phase": "Phase 04",
-     "title": "AI Execution and Strategic Control",
-     "points": [
-      "AI-driven OKRs, KPIs and Balanced Scorecards",
-      "AI roadmaps, dashboards and performance monitoring"
-     ]
-    }
-   ],
-   "toolkit_label": "Frameworks you will use",
-   "toolkits": [
-    "PESTEL",
-    "Porter's Five Forces",
-    "Competitor Analysis",
-    "Value Chain",
-    "SWOT",
-    "TOWS",
-    "BCG Matrix",
-    "Ansoff Model",
-    "OKRs",
-    "Balanced Scorecard",
-    "KPIs",
-    "Scenario Planning"
-   ]
-  },
+      "eyebrow": "Curriculum",
+      "headline": "Every session ends with something you can use",
+      "headline_plain": "Every session ends with",
+      "headline_mark": "something you can use",
+      "sub": "Four phases. Ten evenings. You work your own business through diagnosis, selection, execution, then amplify the same cycle with applied AI.",
+      "walkout_label": "You walk out with",
+      "session_out_label": "Outcome",
+      "phases_label": "Choose a phase",
+      "promise": [
+         "Sessions 1–2",
+         "Sessions 3–4",
+         "Sessions 5–6",
+         "Sessions 7–10 · AI"
+      ],
+      "cta_kicker": "Ready to work your business through all four phases?",
+      "cta_note": "Early Bird seats are limited. Reserve now, or message the team on WhatsApp.",
+      "sessions": [
+         {
+            "number": "01",
+            "phase": "Phase 01",
+            "title": "Kickstart Strategic Thinking",
+            "outcome": "Walk out clear on strategic vs operational work — and the pillars your plan must carry.",
+            "points": [
+               "Defining strategic vs. operational planning",
+               "Strategic pillars: vision, mission, values, objectives"
+            ]
+         },
+         {
+            "number": "02",
+            "phase": "Phase 01",
+            "title": "Smart Strategy Formulation",
+            "outcome": "Apply PESTEL and Five Forces to your market, with a competitor map you can defend.",
+            "points": [
+               "Macro and micro environment scanning (PESTEL, Porter's Five Forces)",
+               "Comprehensive competitor analysis"
+            ]
+         },
+         {
+            "number": "03",
+            "phase": "Phase 02",
+            "title": "Internal Environment Analysis",
+            "outcome": "Map your real strengths — Value Chain and SWOT/TOWS on your own company.",
+            "points": [
+               "Identifying core competencies and resources",
+               "Value Chain analysis and the SWOT/TOWS matrix"
+            ]
+         },
+         {
+            "number": "04",
+            "phase": "Phase 02",
+            "title": "Strategic Decision-Making",
+            "outcome": "Choose a growth path and lock a competitive advantage you can say in one line.",
+            "points": [
+               "Corporate, business and functional strategies",
+               "Growth models: BCG Matrix, Ansoff Model",
+               "Defining a sustainable competitive advantage"
+            ]
+         },
+         {
+            "number": "05",
+            "phase": "Phase 03",
+            "title": "Execution and Alignment",
+            "outcome": "Break strategy into OKRs, owners and resource calls your teams can run.",
+            "points": [
+               "Strategy implementation frameworks (e.g. OKRs)",
+               "Resource allocation and cross-functional alignment"
+            ]
+         },
+         {
+            "number": "06",
+            "phase": "Phase 03",
+            "title": "Performance Measurement",
+            "outcome": "Leave with a Balanced Scorecard and KPIs that show if the plan is working.",
+            "points": [
+               "Using the Balanced Scorecard for strategic monitoring",
+               "KPI development and strategic control"
+            ]
+         },
+         {
+            "number": "07",
+            "phase": "Phase 04",
+            "title": "AI-Powered Market Intelligence",
+            "outcome": "Build an AI research workflow for trends, competitors and customer signals.",
+            "points": [
+               "AI-based market research and trend analysis",
+               "AI competitive intelligence and customer insights"
+            ]
+         },
+         {
+            "number": "08",
+            "phase": "Phase 04",
+            "title": "AI Strategic Analysis",
+            "outcome": "Run SWOT, TOWS, Value Chain, PESTEL and Five Forces faster with AI.",
+            "points": [
+               "AI-powered SWOT, TOWS and Value Chain analysis",
+               "AI-powered PESTEL and Porter's Five Forces analysis"
+            ]
+         },
+         {
+            "number": "09",
+            "phase": "Phase 04",
+            "title": "AI Strategy Formulation",
+            "outcome": "Pressure-test scenarios and map growth opportunities with AI in the room.",
+            "points": [
+               "AI scenario planning and strategic decision-making",
+               "AI growth strategy development and opportunity mapping"
+            ]
+         },
+         {
+            "number": "10",
+            "phase": "Phase 04",
+            "title": "AI Execution and Strategic Control",
+            "outcome": "Leave with AI-backed OKRs, scorecards and dashboards your team can run.",
+            "points": [
+               "AI-driven OKRs, KPIs and Balanced Scorecards",
+               "AI roadmaps, dashboards and performance monitoring"
+            ]
+         }
+      ],
+      "toolkit_label": "Frameworks you will use",
+      "toolkits": [
+         "PESTEL",
+         "Five Forces",
+         "SWOT / TOWS",
+         "Value Chain",
+         "BCG",
+         "Ansoff",
+         "OKRs",
+         "Balanced Scorecard"
+      ],
+      "toolkit_label_plain": "Frameworks you",
+      "toolkit_label_mark": "will use",
+      "toolkit_sub": "The core toolkit — full detail sits in the sessions below.",
+      "phases_label": "Choose a phase",
+      "frameworks_label": "Frameworks you will use",
+      "ai_layer": "AI on the full toolkit"
+   },
   "journey": {
    "eyebrow": "How the programme works",
    "headline": "Four phases, in the order real decisions happen",
+   "headline_plain": "Four phases, in the order real",
+   "headline_mark": "decisions happen",
    "sub": "You bring a business into the room on Sep 28 and work it through every phase. Each one ends with something in your hands, not in your notes.",
    "phases": [
     {
@@ -329,20 +411,54 @@ window.MUSTANER_COPY = {
   "media": {
    "eyebrow": "Inside the room",
    "headline": "Photographs from previous rounds",
+   "headline_plain": "Photographs from previous",
+   "headline_mark": "rounds",
    "sub": "Participants working through their own market, their own competitors, their own numbers. Every image here was taken in a Mustaner session, not bought from a stock library.",
-   "count_line": "Photographed at previous Mustaner rounds · New Cairo"
+   "count_line": "Photographed at previous Mustaner rounds · New Cairo",
+   "open_photo": "Open photo",
+   "prev": "Previous photo",
+   "next": "Next photo",
+   "thumbs_label": "Gallery thumbnails",
+   "of": "of",
+   "captions": {
+      "cohort_group": "Cohort group",
+      "workshop_tables": "Workshop tables",
+      "session_discussion": "Session discussion",
+      "practical_workshop_1": "Practical workshop",
+      "seminar_scale": "Seminar scale",
+      "session_boardroom": "Session boardroom",
+      "cohort_closing": "Cohort closing",
+      "participants_candid": "Participants candid",
+      "roundtable": "Roundtable",
+      "portrait_participant": "Portrait participant",
+      "session_floor": "Session floor",
+      "panel": "Panel",
+      "practical_workshop_3": "Practical workshop",
+      "practical_workshop_2": "Practical workshop"
+   }
   },
   "proof": {
    "eyebrow": "Proof",
-   "headline": "Who trained with us, and what they said afterwards",
-   "sub": "Companies that sent their leadership teams, and unedited feedback from participants in previous rounds.",
-   "clients_label": "Mustaner clients",
-   "feedback_label": "Participant feedback",
+   "headline": "What participants said afterwards",
+   "headline_plain": "What participants said",
+   "headline_mark": "afterwards",
+   "sub": "Unedited feedback from participants in previous rounds.",
    "source_note": "Unedited participant feedback, quoted from the programme group chats."
+  },
+  "clients": {
+   "eyebrow": "Clients",
+   "headline": "Teams that trained with Mustaner",
+   "headline_plain": "Teams that trained",
+   "headline_mark": "with Mustaner",
+   "sub": "Leadership teams from banks, telecom, retail, pharma and industry across the region.",
+   "prev": "Previous clients",
+   "next": "Next clients"
   },
   "schedule": {
    "eyebrow": "Dates and schedule",
    "headline": "Ten sessions. Four phases. Five weeks.",
+   "headline_plain": "Ten sessions. Four phases.",
+   "headline_mark": "Five weeks.",
    "sub": "Two evenings a week, four hours each, from Sep 28 to Oct 28, 2026. The final four sessions are applied AI for strategy.",
    "summary_cells": [
     {
@@ -377,45 +493,64 @@ window.MUSTANER_COPY = {
    "note": "All ten sessions are in person in New Cairo. There is no online attendance."
   },
   "fees": {
-   "eyebrow": "Fees",
-   "headline": "12,000 EGP for the full 40 hours",
-   "sub": "Early Bird pricing holds while seats last. The fee is identical whether you pay by card, bank transfer or Vodafone Cash.",
-   "early_label": "Early Bird",
-   "early_price": "12,000",
-   "currency": "EGP",
-   "regular_label": "Regular fee",
-   "regular_price": "15,000",
-   "save_line": "You save 3,000 EGP — 20% off the regular fee.",
-   "includes_label": "What the fee covers",
-   "includes": [
-    "40 hours of in-person instruction across 10 sessions in New Cairo.",
-    "The full strategic cycle in 4 phases: market diagnosis, strategy selection, implementation, and strategy using AI.",
-    "4 sessions of applied AI for strategy — market intelligence, analysis, formulation, and execution control.",
-    "The framework toolkit: PESTEL, Porter's Five Forces, SWOT/TOWS, Value Chain, BCG, Ansoff, OKRs, KPIs and the Balanced Scorecard.",
-    "Programme materials for every framework covered in the room.",
-    "Applied exercises, real case studies and business simulations built from live client work."
-   ],
-   "payment_label": "Three ways to pay",
-   "payment_methods": [
-    {
-     "name": "Fawaterk",
-     "detail": "Secure online card payment. Book Now opens the Fawaterk payment link directly."
-    },
-    {
-     "name": "Bank transfer",
-     "detail": "Arab African International Bank · Account name: Mustaner for Training · Acc. 1191566310010201 · IBAN EG100057001101191566310010201. Send the receipt to +20 109 271 8547 to confirm your seat."
-    },
-    {
-     "name": "Vodafone Cash",
-     "detail": "01060163600 · Account name: Fouad Hussien Fouad. Send the receipt to +20 109 271 8547 to confirm your seat."
-    }
-   ],
-   "cta_primary": "Book Now",
-   "cta_secondary": "Apply Now"
-  },
+      "eyebrow": "Fees",
+      "headline": "12,000 EGP for the full 40 hours",
+      "headline_plain": "12,000 EGP for the full",
+      "headline_mark": "40 hours",
+      "sub": "Early Bird pricing holds while seats last. The fee is identical whether you pay by card, bank transfer or Vodafone Cash.",
+      "early_label": "Early Bird",
+      "early_price": "12,000",
+      "currency": "EGP",
+      "regular_label": "Regular fee",
+      "regular_price": "15,000",
+      "sale_badge": "20% OFF",
+      "early_pay_label": "You pay",
+      "save_label": "You save",
+      "save_amount": "3,000 EGP",
+      "save_note": "20% off the regular fee",
+      "save_line": "You save 3,000 EGP — 20% off the regular fee.",
+      "offer_note": "Same price on every payment method. Seats release when Early Bird ends.",
+      "includes_label": "What the fee covers",
+      "includes": [
+         "40 hours of in-person instruction across 10 sessions in New Cairo.",
+         "The full strategic cycle in 4 phases: market diagnosis, strategy selection, implementation, and strategy using AI.",
+         "4 sessions of applied AI for strategy — market intelligence, analysis, formulation, and execution control.",
+         "The classic strategy toolkit used across the ten sessions — listed in the curriculum.",
+         "Programme materials for every framework covered in the room.",
+         "Applied exercises, real case studies and business simulations built from live client work."
+      ],
+      "payment_label": "Three ways to pay",
+      "payment_methods": [
+         {
+            "name": "Fawaterk",
+            "detail": "Secure online card payment. Book Now opens the Fawaterk payment link directly."
+         },
+         {
+            "name": "Bank transfer",
+            "detail": "Arab African International Bank · Account name: Mustaner for Training · Acc. 1191566310010201 · IBAN EG100057001101191566310010201. Send the receipt to +20 109 271 8547 to confirm your seat.",
+            "blurb": "Transfer to Arab African International Bank, then send the receipt on WhatsApp to confirm your seat."
+         },
+         {
+            "name": "Vodafone Cash",
+            "detail": "01060163600 · Account name: Fouad Hussien Fouad. Send the receipt to +20 109 271 8547 to confirm your seat.",
+            "blurb": "Send to the number below, then WhatsApp the receipt to lock your seat."
+         }
+      ],
+      "cta_primary": "Book Now",
+      "cta_secondary": "Apply Now",
+      "payment_intro": "Pick the route that fits — same Early Bird fee on every method.",
+      "pay_bank": "Bank",
+      "pay_account": "Account",
+      "pay_acc_no": "Acc. no.",
+      "pay_number": "Number",
+      "payment_label_plain": "Three ways to",
+      "payment_label_mark": "pay"
+   },
   "faq": {
    "eyebrow": "Questions",
    "headline": "What senior people ask before they book",
+   "headline_plain": "What senior people ask before they",
+   "headline_mark": "book",
    "sub": "If your question is not here, send it to +20 109 271 8547 and you will get a direct answer.",
    "items": [
     {
@@ -455,32 +590,52 @@ window.MUSTANER_COPY = {
   "finalcta": {
    "eyebrow": "Next intake",
    "headline": "The room fills before Sep 28",
+   "headline_plain": "The room fills before",
+   "headline_mark": "Sep 28",
    "sub": "Seats are limited by the format — this is in-person work, not a webinar. Book at the Early Bird fee, or send your details and the team will come back to you.",
+   "badge": "Early Bird · Next intake · seats limited",
+   "visual_kicker": "In the room — not on a webinar",
+   "price_label": "Early Bird",
+   "meta": [
+      "10 sessions · 40 hours",
+      "Mon & Wed · 6–10 PM",
+      "New Cairo · in person",
+      "Sep 28 – Oct 28, 2026"
+   ],
    "fact_line": "10 sessions · 40 hours · Monday and Wednesday, 6:00 PM to 10:00 PM · New Cairo, in person · Sep 28 to Oct 28, 2026 · 12,000 EGP Early Bird instead of 15,000 EGP.",
    "cta_primary": "Book Now",
    "cta_secondary": "Apply Now",
    "cta_tertiary": "Download Brochure"
   },
   "footer": {
-   "tagline": "Business development and professional training — practical education, strategic thinking, financial clarity and business automation, across Egypt and the Middle East.",
-   "contact_label": "Contact",
-   "location_label": "Location",
-   "follow_label": "Follow",
-   "rights": "© 2026 Mustaner. All rights reserved."
-  },
+      "tagline": "Business development and professional training — practical education, strategic thinking, financial clarity and business automation, across Egypt and the Middle East.",
+      "contact_label": "Contact",
+      "location_label": "Location",
+      "follow_label": "Follow",
+      "rights": "© 2026 Mustaner. All rights reserved.",
+      "explore_label": "Explore",
+      "back_top": "Back to top"
+   },
   "form": {
-   "title": "Apply for a seat",
-   "sub": "Six fields. The team replies on WhatsApp with the detail you need before you commit.",
-   "f_name": "Full name",
-   "f_job": "Job title",
-   "f_company": "Company",
-   "f_phone": "Phone",
-   "f_email": "Email",
-   "f_challenge": "What is your biggest strategic challenge right now?",
-   "submit": "Send on WhatsApp",
-   "success": "Your details are ready. WhatsApp is opening now — press send there and the team will reply.",
-   "privacy": "Nothing is stored on this page. The form opens WhatsApp with your details written into the message, and nothing reaches us until you press send."
-  },
+      "title": "Apply for a seat",
+      "sub": "We’ll reply on WhatsApp.",
+      "f_name": "Full name",
+      "f_job": "Job title",
+      "f_company": "Company",
+      "f_phone": "Phone",
+      "f_email": "Email",
+      "f_challenge": "Biggest strategic challenge right now?",
+      "submit": "Send on WhatsApp",
+      "success": "WhatsApp is ready — press send there and the team will reply.",
+      "privacy": "Nothing is stored here. WhatsApp opens with your details — we only see them after you press send.",
+      "eyebrow": "Apply",
+      "optional": "(optional)",
+      "done": "Close",
+      "error_required": "Please fill in the required fields.",
+      "error_email": "Enter a valid email, or leave it blank.",
+      "error_phone": "Enter a valid phone number.",
+      "wa_intro": "Hello Mustaner, I would like a seat on Strategic Thinking for Growth."
+   },
   "testimonials": [
    {
     "quote": "The level of understanding and the ease of the explanation were extraordinary. The session was genuinely brilliant — two hours passed as if they were two minutes.",
@@ -528,21 +683,30 @@ window.MUSTANER_COPY = {
    "og_description": "عشر جلسات حضورية، 40 ساعة، القاهرة الجديدة. أدوات الاستراتيجية المعتمدة عالميًا مع أربع جلسات AI تطبيقي. يبدأ 28 سبتمبر 2026."
   },
   "hero": {
-   "eyebrow": "مُستنير · دفعة القاهرة الجديدة · 28 سبتمبر 2026",
-   "h1": "التفكير الاستراتيجي للنمو — اخرج باستراتيجية جاهزة",
-   "subhead": "عشر جلسات تمر بك على الدورة الاستراتيجية كاملة: قراءة السوق، واختيار الاتجاه، وضبط التنفيذ على KPIs باستخدام PESTEL وPorter's Five Forces وSWOT/TOWS وBCG وAnsoff وOKRs وBalanced Scorecard. أربع من العشر جلسات AI تطبيقي، تُشغّل فيها الأدوات نفسها على شركتك أنت.",
-   "proof_chips": [
-    "40 ساعة · 10 جلسات",
-    "4 جلسات AI تطبيقي",
-    "حضوري · القاهرة الجديدة",
-    "يبدأ 28 سبتمبر 2026"
-   ],
-   "cta_primary": "احجز مقعدك",
-   "cta_secondary": "قدّم طلبك",
-   "cta_tertiary": "حمّل البروشور",
-   "scroll_hint": "تعرّف على طريقة العمل"
-  },
-  "quickinfo": {
+      "brand": "مُسْتَنِير",
+      "eyebrow": "القاهرة الجديدة · ٢٨ سبتمبر",
+      "h1": "ابنِ الاستراتيجية اللي شغلك هيشتغل بيها",
+      "h1_plain": "ابنِ الاستراتيجية",
+      "h1_mark": "اللي شغلك هيشتغل بيها",
+      "subhead": "٤٠ ساعة. ١٠ جلسات حضورية في القاهرة الجديدة. أدوات استراتيجية كلاسيكية مع أربع جلسات ذكاء اصطناعي تطبيقي — على شركتك أنت، مش على دراسة حالة.",
+      "offer_price": "١٢,٠٠٠ جنيه",
+      "offer_was": "١٥,٠٠٠",
+      "offer_tag": "الحجز المبكر",
+      "offer_line": "المقاعد محدودة · يبدأ ٢٨ سبتمبر",
+      "proof_chips": [
+         "٤٠ ساعة · ١٠ جلسات",
+         "٤ جلسات ذكاء اصطناعي",
+         "حضوري · القاهرة الجديدة",
+         "يبدأ ٢٨ سبتمبر"
+      ],
+      "cta_primary": "احجز مقعدك",
+      "cta_secondary": "قدّم الآن",
+      "cta_whatsapp": "اسأل على واتساب",
+      "cta_tertiary": "حمّل البروشور",
+      "trust_line": "كلم الفريق قبل الدفع — الرد عادة خلال ساعات.",
+      "scroll_hint": "شوف إزاي البرنامج بيشتغل"
+   },
+"quickinfo": {
    "cells": [
     {
      "label": "الدفعة القادمة",
@@ -591,42 +755,85 @@ window.MUSTANER_COPY = {
     }
    ],
    "lang_toggle": "English",
+   "nav_home": "الرئيسية",
+   "menu_open": "فتح القائمة",
+   "menu_close": "إغلاق القائمة",
+   "menu": "القائمة",
+   "back_top": "العودة للأعلى",
    "whatsapp_label": "تواصل عبر واتساب",
+   "whatsapp_bubble": "عندك سؤال؟ راسلنا الآن.",
+   "whatsapp_cta": "ابدأ المحادثة",
+   "whatsapp_prefill": "مرحبًا مُستنير، عندي سؤال عن برنامج التفكير الاستراتيجي للنمو (دفعة 28 سبتمبر).",
    "play_video": "شغّل فيديو البرنامج",
    "close": "إغلاق",
    "skip_link": "تخطَّ إلى المحتوى الرئيسي"
   },
   "video": {
-   "eyebrow": "تعريف بالبرنامج · 0:30",
+   "eyebrow": "تعريف بالبرنامج",
    "headline": "شاهد كيف يعمل البرنامج",
+   "headline_plain": "شاهد كيف يعمل",
+   "headline_mark": "البرنامج",
    "body": "30 ثانية تكفي لترى ما الذي تحصل عليه: القاعة، وإيقاع العمل، والمراحل الأربع التي تنقلك من تشخيص السوق إلى استراتيجية يستطيع فريقك تنفيذها فعلاً. شاهده قبل أن تقرأ أي شيء آخر في الصفحة.",
-   "caption": "0:30 · شغّل الصوت · التفكير الاستراتيجي للنمو، من Mustaner"
-  },
-  "overview": {
-   "eyebrow": "نظرة عامة على البرنامج",
-   "headline": "استراتيجية تصمد أمام التنفيذ",
-   "problem_label": "المشكلة",
-   "problem": "الشركات النامية في مصر لا ينقصها الطموح، بل تنقصها استراتيجية تصمد: قرارات تُتخذ بالحدس، وخطة تُكتب في يناير لا يتذكرها أحد في مارس، وفرق مشغولة لكنها لا تتحرك في اتجاه واحد.",
-   "answer_label": "ما الذي يفعله البرنامج",
-   "answer": "40 ساعة، 10 جلسات، 4 مراحل، في قاعة واحدة بالقاهرة الجديدة. تُشخّص سوقك، تختار استراتيجية تستطيع الدفاع عنها، تبني تحتها طبقة التنفيذ والقياس، ثم تعيد الدورة نفسها وAI يتولى التحليل.",
-   "pillars": [
+   "caption": "0:30 · شغّل الصوت · التفكير الاستراتيجي للنمو، من Mustaner",
+   "highlights": [
     {
-     "title": "الدورة الاستراتيجية كاملة",
-     "body": "أربع مراحل تنقلك من بحث السوق والتشخيص إلى اختيار الاستراتيجية ثم التنفيذ والرقابة، فلا يتوقف شيء عند حدود النظرية."
+     "title": "شركتك، لا دراسة حالة",
+     "body": "كل أداة تُطبَّق على سوقك وأرقامك"
     },
     {
-     "title": "أدوات تعرفها وتثق بها",
-     "body": "PESTEL، Porter's Five Forces، SWOT/TOWS، Value Chain، BCG، Ansoff، OKRs، وBalanced Scorecard، مُطبَّقة على حالات أعمال حقيقية لا مشروحة في محاضرات."
+     "title": "قاعة على مستوى القرار",
+     "body": "رؤساء تنفيذيون ومؤسسون ومديرون يملكون القرار"
     },
     {
-     "title": "طبقة AI تطبيقية",
-     "body": "أربع جلسات من العشر تشغّل AI في استقصاء السوق، وتخطيط السيناريوهات، ورسم خرائط النمو، ولوحات KPIs الحية."
+     "title": "استراتيجية تدافع عنها",
+     "body": "خطة بمالكين وKPIs ولغة جاهزة لمجلس الإدارة"
+    },
+    {
+     "title": "أربع جلسات AI تطبيقية",
+     "body": "بحث وسيناريوهات وخرائط نمو ولوحات حية"
     }
    ]
   },
+  "overview": {
+      "eyebrow": "نظرة عامة على البرنامج",
+      "headline": "استراتيجية تصمد أمام التنفيذ",
+      "headline_plain": "استراتيجية تصمد أمام",
+      "headline_mark": "التنفيذ",
+      "problem_label": "المشكلة",
+      "problem": "الشركات النامية في مصر لا ينقصها الطموح، بل تنقصها استراتيجية تصمد: قرارات تُتخذ بالحدس، وخطة تُكتب في يناير لا يتذكرها أحد في مارس، وفرق مشغولة لكنها لا تتحرك في اتجاه واحد.",
+      "answer_label": "ما الذي يفعله البرنامج",
+      "answer": "٤٠ ساعة، ١٠ جلسات، في قاعة واحدة بالقاهرة الجديدة. تشخّص سوقك، تختار استراتيجية تستطيع الدفاع عنها، تبني تحتها طبقة التنفيذ، ثم تعيد الدورة نفسها بذكاء اصطناعي تطبيقي.",
+      "stats": [
+         "ساعة في القاعة",
+         "جلسة حضورية",
+         "مراحل تُكملها",
+         "نتائج تخرج بها"
+      ],
+      "cta_kicker": "جاهز تمرّر شركة حقيقية عبر الدورة؟",
+      "cta_note": "مقاعد الحجز المبكر محدودة. ابدأ بالمنهج، أو راسلنا لحجز مقعدك.",
+      "cta_primary": "شاهد المنهج",
+      "cta_secondary": "قدّم الآن",
+      "pillars": [
+         {
+            "title": "الدورة الاستراتيجية كاملة",
+            "body": "أربع مراحل تنقلك من بحث السوق والتشخيص إلى اختيار الاستراتيجية ثم التنفيذ والرقابة، فلا يتوقف شيء عند حدود النظرية."
+         },
+         {
+            "title": "أدوات تعرفها وتثق بها",
+            "body": "PESTEL، Porter's Five Forces، SWOT/TOWS، Value Chain، BCG، Ansoff، OKRs، وBalanced Scorecard، مُطبَّقة على حالات أعمال حقيقية لا مشروحة في محاضرات."
+         },
+         {
+            "title": "طبقة AI تطبيقية",
+            "body": "أربع جلسات من العشر تشغّل AI في استقصاء السوق، وتخطيط السيناريوهات، ورسم خرائط النمو، ولوحات KPIs الحية."
+         }
+      ],
+      "lead": "برنامج واحد. أربع مراحل. سبعة نتائج ترجع بها إلى شركتك."
+   },
   "audience": {
    "eyebrow": "لمن هذا البرنامج",
    "headline": "مصمم لمن يملك القرار",
+   "headline_plain": "مصمم لمن يملك",
+   "headline_mark": "القرار",
    "sub": "القاعة قيادية بالتصميم. ستعمل بجوار أشخاص يحملون وزن القرار نفسه الذي تحمله.",
    "roles": [
     {
@@ -658,156 +865,186 @@ window.MUSTANER_COPY = {
    "not_for": "إن كنت تبحث عن شهادة تُضاف إلى الـCV، أو ليس لديك شركة أو إدارة تطبّق عليها العمل بين الجلسات، فهذا ليس برنامجك: كل مرحلة فيه تفترض وجود نشاط حقيقي أمامك."
   },
   "outcomes": {
-   "eyebrow": "النتائج",
-   "headline": "ما ستخرج به",
-   "sub": "سبع نتائج بُني عليها البرنامج، مصاغة بما ستصبح قادرًا على فعله بشكل مختلف بعد انتهاء الجلسات العشر.",
-   "items": [
-    {
-     "title": "الدورة الاستراتيجية كاملة",
-     "body": "تعمل دورة كاملة على شركتك أنت — تشخيص، ثم اختيار، ثم تنفيذ، ثم رقابة — بدلًا من التعامل مع جزء واحد من الاستراتيجية في كل مرة."
-    },
-    {
-     "title": "أدوات معتمدة عالميًا",
-     "body": "تطبّق PESTEL وPorter's Five Forces وSWOT/TOWS وValue Chain وBCG وAnsoff بالطريقة التي تستخدمها بها الشركات العاملة فعلًا، لا كرسوم في كتاب."
-    },
-    {
-     "title": "تطبيق عملي وتفاعل مباشر",
-     "body": "تقضي الـ40 ساعة في تمارين وحالات عملية ونقاش مباشر، فيخرج كل إطار من القاعة وقد طُبّق على قرار تملكه أنت."
-    },
-    {
-     "title": "تحوّل إلى العقلية الاستراتيجية",
-     "body": "تقرأ السوق قبل أن تتفاعل معه، وتفصل القرارات القليلة التي تشكّل السنوات الثلاث القادمة عن تلك التي تملأ الأسبوع القادم."
-    },
-    {
-     "title": "جسر بين النظرية والتنفيذ",
-     "body": "تحوّل استراتيجية متفقًا عليها إلى أهداف ومسؤولين وموارد وKPIs تصمد أمام جدول التشغيل اليومي."
-    },
-    {
-     "title": "من القيادة التشغيلية إلى الاستراتيجية",
-     "body": "تنتقل من إدارة العمل الذي أمامك إلى تحديد الاتجاه الذي يعمل نحوه الآخرون، وبلغة تدافع بها عن هذا الاتجاه أمام مجلس إدارة أو شريك."
-    },
-    {
-     "title": "AI مدمج بأثر على الأعمال",
-     "body": "تستخدم AI عبر أربع جلسات كاملة في البحث وبناء التحليلات واختبار السيناريوهات ومتابعة الأداء، في ساعات بدل أسابيع."
-    }
-   ]
-  },
+      "eyebrow": "النتائج",
+      "headline": "ما ستخرج به",
+      "headline_plain": "ما ستخرج",
+      "headline_mark": "به",
+      "sub": "سبعة نتائج بُني البرنامج حولها — ما ستقدر تعمله بشكل مختلف بعد انتهاء الجلسات العشر.",
+      "feature_tag": "4 جلسات AI",
+      "items": [
+         {
+            "title": "الدورة الاستراتيجية كاملة",
+            "body": "تعمل دورة كاملة على شركتك أنت — تشخيص، ثم اختيار، ثم تنفيذ، ثم رقابة — بدلًا من التعامل مع جزء واحد من الاستراتيجية في كل مرة."
+         },
+         {
+            "title": "أدوات معتمدة عالميًا",
+            "body": "تطبّق PESTEL وPorter's Five Forces وSWOT/TOWS وValue Chain وBCG وAnsoff بالطريقة التي تستخدمها بها الشركات العاملة فعلًا، لا كرسوم في كتاب."
+         },
+         {
+            "title": "تطبيق عملي وتفاعل مباشر",
+            "body": "تقضي الـ40 ساعة في تمارين وحالات عملية ونقاش مباشر، فيخرج كل إطار من القاعة وقد طُبّق على قرار تملكه أنت."
+         },
+         {
+            "title": "تحوّل إلى العقلية الاستراتيجية",
+            "body": "تقرأ السوق قبل أن تتفاعل معه، وتفصل القرارات القليلة التي تشكّل السنوات الثلاث القادمة عن تلك التي تملأ الأسبوع القادم."
+         },
+         {
+            "title": "جسر بين النظرية والتنفيذ",
+            "body": "تحوّل استراتيجية متفقًا عليها إلى أهداف ومسؤولين وموارد وKPIs تصمد أمام جدول التشغيل اليومي."
+         },
+         {
+            "title": "من القيادة التشغيلية إلى الاستراتيجية",
+            "body": "تنتقل من إدارة العمل الذي أمامك إلى تحديد الاتجاه الذي يعمل نحوه الآخرون، وبلغة تدافع بها عن هذا الاتجاه أمام مجلس إدارة أو شريك."
+         },
+         {
+            "title": "AI مدمج بأثر على الأعمال",
+            "body": "تستخدم AI عبر أربع جلسات كاملة في البحث وبناء التحليلات واختبار السيناريوهات ومتابعة الأداء، في ساعات بدل أسابيع."
+         }
+      ]
+   },
   "curriculum": {
-   "eyebrow": "المحتوى",
-   "headline": "عشر جلسات. أربع مراحل. 40 ساعة.",
-   "sub": "ست جلسات في الممارسة الاستراتيجية الكلاسيكية، وأربع في تطبيق AI على الدورة نفسها. الاثنين والأربعاء، من 6:00 مساءً إلى 10:00 مساءً، حضوريًا في القاهرة الجديدة.",
-   "sessions": [
-    {
-     "number": "01",
-     "phase": "المرحلة 01",
-     "title": "انطلاقة التفكير الاستراتيجي",
-     "points": [
-      "التفريق بين التخطيط الاستراتيجي والتخطيط التشغيلي",
-      "الركائز الاستراتيجية: الرؤية، الرسالة، القيم، الأهداف"
-     ]
-    },
-    {
-     "number": "02",
-     "phase": "المرحلة 01",
-     "title": "الصياغة الذكية للاستراتيجية",
-     "points": [
-      "مسح البيئة الكلية والجزئية (PESTEL، Porter's Five Forces)",
-      "تحليل شامل للمنافسين"
-     ]
-    },
-    {
-     "number": "03",
-     "phase": "المرحلة 02",
-     "title": "تحليل البيئة الداخلية",
-     "points": [
-      "تحديد الجدارات الجوهرية والموارد",
-      "تحليل Value Chain ومصفوفة SWOT/TOWS"
-     ]
-    },
-    {
-     "number": "04",
-     "phase": "المرحلة 02",
-     "title": "اتخاذ القرار الاستراتيجي",
-     "points": [
-      "استراتيجيات المؤسسة ووحدات الأعمال والوظائف",
-      "نماذج النمو: BCG Matrix وAnsoff Model",
-      "تحديد ميزة تنافسية مستدامة"
-     ]
-    },
-    {
-     "number": "05",
-     "phase": "المرحلة 03",
-     "title": "التنفيذ والمواءمة",
-     "points": [
-      "أطر تنفيذ الاستراتيجية (مثل OKRs)",
-      "توزيع الموارد والمواءمة بين الإدارات"
-     ]
-    },
-    {
-     "number": "06",
-     "phase": "المرحلة 03",
-     "title": "قياس الأداء",
-     "points": [
-      "استخدام Balanced Scorecard في المتابعة الاستراتيجية",
-      "بناء KPIs والرقابة الاستراتيجية"
-     ]
-    },
-    {
-     "number": "07",
-     "phase": "المرحلة 04",
-     "title": "ذكاء السوق باستخدام AI",
-     "points": [
-      "بحث السوق وتحليل الاتجاهات بـAI",
-      "رصد المنافسين وقراءة سلوك العملاء بـAI"
-     ]
-    },
-    {
-     "number": "08",
-     "phase": "المرحلة 04",
-     "title": "التحليل الاستراتيجي بـAI",
-     "points": [
-      "تحليل SWOT وTOWS وValue Chain بـAI",
-      "تحليل PESTEL وPorter's Five Forces بـAI"
-     ]
-    },
-    {
-     "number": "09",
-     "phase": "المرحلة 04",
-     "title": "صياغة الاستراتيجية بـAI",
-     "points": [
-      "تخطيط السيناريوهات واتخاذ القرار الاستراتيجي بـAI",
-      "بناء استراتيجية النمو ورسم خريطة الفرص بـAI"
-     ]
-    },
-    {
-     "number": "10",
-     "phase": "المرحلة 04",
-     "title": "التنفيذ والرقابة الاستراتيجية بـAI",
-     "points": [
-      "OKRs وKPIs وBalanced Scorecards مدفوعة بـAI",
-      "خرائط طريق ولوحات متابعة وقياس أداء بـAI"
-     ]
-    }
-   ],
-   "toolkit_label": "الأدوات التي ستستخدمها",
-   "toolkits": [
-    "PESTEL",
-    "Porter's Five Forces",
-    "تحليل المنافسين",
-    "Value Chain",
-    "SWOT",
-    "TOWS",
-    "BCG Matrix",
-    "Ansoff Model",
-    "OKRs",
-    "Balanced Scorecard",
-    "KPIs",
-    "تخطيط السيناريوهات"
-   ]
-  },
+      "eyebrow": "المحتوى",
+      "headline": "كل جلسة تنتهي بشيء تقدر تستخدمه",
+      "headline_plain": "كل جلسة تنتهي بـ",
+      "headline_mark": "شيء تقدر تستخدمه",
+      "sub": "أربع مراحل. عشر أمسيات. تشتغل على شغلك أنت عبر التشخيص والاختيار والتنفيذ، ثم تضاعف الدورة نفسها بذكاء اصطناعي تطبيقي.",
+      "walkout_label": "تخرج ومعك",
+      "session_out_label": "النتيجة",
+      "phases_label": "اختر مرحلة",
+      "promise": [
+         "الجلسات 1–2",
+         "الجلسات 3–4",
+         "الجلسات 5–6",
+         "الجلسات 7–10 · AI"
+      ],
+      "cta_kicker": "جاهز تشتغل على شغلك عبر المراحل الأربع؟",
+      "cta_note": "مقاعد الحجز المبكر محدودة. احجز الآن، أو راسل الفريق على واتساب.",
+      "sessions": [
+         {
+            "number": "01",
+            "phase": "المرحلة 01",
+            "title": "انطلاقة التفكير الاستراتيجي",
+            "outcome": "تخرج وأنت واضح بين العمل الاستراتيجي والتشغيلي — والركائز التي يجب أن يحملها خطتك.",
+            "points": [
+               "التفريق بين التخطيط الاستراتيجي والتخطيط التشغيلي",
+               "الركائز الاستراتيجية: الرؤية، الرسالة، القيم، الأهداف"
+            ]
+         },
+         {
+            "number": "02",
+            "phase": "المرحلة 01",
+            "title": "الصياغة الذكية للاستراتيجية",
+            "outcome": "تطبّق PESTEL وFive Forces على سوقك، مع خريطة منافسين تستطيع الدفاع عنها.",
+            "points": [
+               "مسح البيئة الكلية والجزئية (PESTEL، Porter's Five Forces)",
+               "تحليل شامل للمنافسين"
+            ]
+         },
+         {
+            "number": "03",
+            "phase": "المرحلة 02",
+            "title": "تحليل البيئة الداخلية",
+            "outcome": "ترسم قوتك الحقيقية — Value Chain وSWOT/TOWS على شركتك أنت.",
+            "points": [
+               "تحديد الجدارات الجوهرية والموارد",
+               "تحليل Value Chain ومصفوفة SWOT/TOWS"
+            ]
+         },
+         {
+            "number": "04",
+            "phase": "المرحلة 02",
+            "title": "اتخاذ القرار الاستراتيجي",
+            "outcome": "تختار مسار نمو وتثبت ميزة تنافسية تصوغها في جملة واحدة.",
+            "points": [
+               "استراتيجيات المؤسسة ووحدات الأعمال والوظائف",
+               "نماذج النمو: BCG Matrix وAnsoff Model",
+               "تحديد ميزة تنافسية مستدامة"
+            ]
+         },
+         {
+            "number": "05",
+            "phase": "المرحلة 03",
+            "title": "التنفيذ والمواءمة",
+            "outcome": "تفكّك الاستراتيجية إلى OKRs ومسؤولين وقرارات موارد يستطيع فريقك تشغيلها.",
+            "points": [
+               "أطر تنفيذ الاستراتيجية (مثل OKRs)",
+               "توزيع الموارد والمواءمة بين الإدارات"
+            ]
+         },
+         {
+            "number": "06",
+            "phase": "المرحلة 03",
+            "title": "قياس الأداء",
+            "outcome": "تخرج ومعك Balanced Scorecard وKPIs توضح إن كانت الخطة تعمل.",
+            "points": [
+               "استخدام Balanced Scorecard في المتابعة الاستراتيجية",
+               "بناء KPIs والرقابة الاستراتيجية"
+            ]
+         },
+         {
+            "number": "07",
+            "phase": "المرحلة 04",
+            "title": "ذكاء السوق باستخدام AI",
+            "outcome": "تبني مسار بحث بـAI للاتجاهات والمنافسين وإشارات العملاء.",
+            "points": [
+               "بحث السوق وتحليل الاتجاهات بـAI",
+               "رصد المنافسين وقراءة سلوك العملاء بـAI"
+            ]
+         },
+         {
+            "number": "08",
+            "phase": "المرحلة 04",
+            "title": "التحليل الاستراتيجي بـAI",
+            "outcome": "تشغّل SWOT وTOWS وValue Chain وPESTEL وFive Forces أسرع بـAI.",
+            "points": [
+               "تحليل SWOT وTOWS وValue Chain بـAI",
+               "تحليل PESTEL وPorter's Five Forces بـAI"
+            ]
+         },
+         {
+            "number": "09",
+            "phase": "المرحلة 04",
+            "title": "صياغة الاستراتيجية بـAI",
+            "outcome": "تختبر السيناريوهات وترسم فرص النمو وAI في القاعة.",
+            "points": [
+               "تخطيط السيناريوهات واتخاذ القرار الاستراتيجي بـAI",
+               "بناء استراتيجية النمو ورسم خريطة الفرص بـAI"
+            ]
+         },
+         {
+            "number": "10",
+            "phase": "المرحلة 04",
+            "title": "التنفيذ والرقابة الاستراتيجية بـAI",
+            "outcome": "تخرج ومعك OKRs ولوحات وبطاقات أداء مدعومة بـAI لفريقك.",
+            "points": [
+               "OKRs وKPIs وBalanced Scorecards مدفوعة بـAI",
+               "خرائط طريق ولوحات متابعة وقياس أداء بـAI"
+            ]
+         }
+      ],
+      "toolkit_label": "الأدوات التي ستستخدمها",
+      "toolkits": [
+         "PESTEL",
+         "Five Forces",
+         "SWOT / TOWS",
+         "Value Chain",
+         "BCG",
+         "Ansoff",
+         "OKRs",
+         "Balanced Scorecard"
+      ],
+      "toolkit_label_plain": "الأدوات التي",
+      "toolkit_label_mark": "ستستخدمها",
+      "toolkit_sub": "الأدوات الأساسية — التفاصيل كاملة في الجلسات بالأسفل.",
+      "phases_label": "اختر مرحلة",
+      "frameworks_label": "الأدوات التي ستستخدمها",
+      "ai_layer": "ذكاء اصطناعي على كامل الأدوات"
+   },
   "journey": {
    "eyebrow": "كيف يعمل البرنامج",
    "headline": "أربع مراحل، بالترتيب الذي تُتخذ به القرارات فعلًا",
+   "headline_plain": "أربع مراحل، بالترتيب الذي تُتخذ به",
+   "headline_mark": "القرارات فعلًا",
    "sub": "تدخل القاعة يوم 28 سبتمبر ومعك شركة حقيقية، وتمر بها عبر كل مرحلة. كل مرحلة تنتهي بشيء في يدك، لا في دفترك.",
    "phases": [
     {
@@ -847,20 +1084,54 @@ window.MUSTANER_COPY = {
   "media": {
    "eyebrow": "من داخل القاعة",
    "headline": "صور من الدورات السابقة",
+   "headline_plain": "صور من الدورات",
+   "headline_mark": "السابقة",
    "sub": "مشاركون يشتغلون على سوقهم هم، ومنافسيهم هم، وأرقامهم هم. كل صورة هنا مأخوذة داخل جلسة من جلسات Mustaner، وليست صورة جاهزة من بنك صور.",
-   "count_line": "تصوير من دورات Mustaner السابقة · القاهرة الجديدة"
+   "count_line": "تصوير من دورات Mustaner السابقة · القاهرة الجديدة",
+   "open_photo": "افتح الصورة",
+   "prev": "الصورة السابقة",
+   "next": "الصورة التالية",
+   "thumbs_label": "مصغرات المعرض",
+   "of": "من",
+   "captions": {
+      "cohort_group": "صورة جماعية للدورة",
+      "workshop_tables": "طاولات الورشة",
+      "session_discussion": "نقاش داخل الجلسة",
+      "practical_workshop_1": "ورشة عملية",
+      "seminar_scale": "ندوة على نطاق واسع",
+      "session_boardroom": "جلسة في قاعة الاجتماعات",
+      "cohort_closing": "ختام الدورة",
+      "participants_candid": "مشاركون في لحظة عفوية",
+      "roundtable": "طاولة مستديرة",
+      "portrait_participant": "صورة لمشارك",
+      "session_floor": "قاعة الجلسة",
+      "panel": "حلقة نقاش",
+      "practical_workshop_3": "ورشة عملية",
+      "practical_workshop_2": "ورشة عملية"
+   }
   },
   "proof": {
    "eyebrow": "الدليل",
-   "headline": "من تدرّب معنا، وماذا قالوا بعدها",
-   "sub": "شركات أرسلت فرق قيادتها، وآراء مشاركين من دورات سابقة كما وردت دون تعديل.",
-   "clients_label": "عملاء Mustaner",
-   "feedback_label": "آراء المشاركين",
+   "headline": "ماذا قال المشاركون بعدها",
+   "headline_plain": "ماذا قال المشاركون",
+   "headline_mark": "بعدها",
+   "sub": "آراء مشاركين من دورات سابقة كما وردت دون تعديل.",
    "source_note": "فيدباك حقيقي من المشاركين، منقول كما هو من جروبات البرنامج."
+  },
+  "clients": {
+   "eyebrow": "العملاء",
+   "headline": "فرق تدرّبت مع Mustaner",
+   "headline_plain": "فرق تدرّبت",
+   "headline_mark": "مع Mustaner",
+   "sub": "فرق قيادة من البنوك والاتصالات والتجزئة والأدوية والصناعة في المنطقة.",
+   "prev": "العملاء السابقون",
+   "next": "العملاء التاليون"
   },
   "schedule": {
    "eyebrow": "المواعيد والجدول",
    "headline": "10 جلسات. 4 مراحل. 5 أسابيع.",
+   "headline_plain": "10 جلسات. 4 مراحل.",
+   "headline_mark": "5 أسابيع.",
    "sub": "أمسيتان كل أسبوع، 4 ساعات لكل جلسة، من 28 سبتمبر إلى 28 أكتوبر 2026. آخر 4 جلسات تطبيق عملي لـ AI في الاستراتيجية.",
    "summary_cells": [
     {
@@ -895,45 +1166,64 @@ window.MUSTANER_COPY = {
    "note": "الجلسات الـ 10 كلها حضورية في القاهرة الجديدة. لا يوجد حضور أونلاين."
   },
   "fees": {
-   "eyebrow": "الاشتراك",
-   "headline": "12,000 جنيه لـ 40 ساعة كاملة",
-   "sub": "سعر الحجز المبكر قائم ما دامت هناك مقاعد. القيمة واحدة سواء دفعت بالكارت أو بتحويل بنكي أو عبر Vodafone Cash.",
-   "early_label": "الحجز المبكر",
-   "early_price": "12,000",
-   "currency": "جنيه",
-   "regular_label": "السعر العادي",
-   "regular_price": "15,000",
-   "save_line": "توفير 3,000 جنيه — خصم 20% من السعر العادي.",
-   "includes_label": "الاشتراك يشمل",
-   "includes": [
-    "40 ساعة تدريب حضوري على مدار 10 جلسات في القاهرة الجديدة.",
-    "الدورة الاستراتيجية كاملة في 4 مراحل: تشخيص السوق، اختيار الاستراتيجية، التنفيذ، والاستراتيجية باستخدام AI.",
-    "4 جلسات تطبيقية لتشغيل AI في الاستراتيجية: ذكاء السوق، التحليل، الصياغة، والتحكم في التنفيذ.",
-    "حقيبة الأدوات: PESTEL وPorter's Five Forces وSWOT/TOWS وValue Chain وBCG وAnsoff وOKRs وKPIs وBalanced Scorecard.",
-    "مواد البرنامج لكل نموذج وأداة يتم تناولها داخل القاعة.",
-    "تمارين تطبيقية وحالات دراسية حقيقية ومحاكاة أعمال مبنية على مشروعات عملاء فعلية."
-   ],
-   "payment_label": "ثلاث طرق للدفع",
-   "payment_methods": [
-    {
-     "name": "Fawaterk",
-     "detail": "دفع إلكتروني آمن بالكارت. زر «احجز الآن» يفتح رابط الدفع على Fawaterk مباشرة."
-    },
-    {
-     "name": "تحويل بنكي",
-     "detail": "البنك العربي الأفريقي الدولي · اسم الحساب: Mustaner for Training · رقم الحساب 1191566310010201 · IBAN EG100057001101191566310010201. أرسل الإيصال على +20 109 271 8547 لتأكيد مقعدك."
-    },
-    {
-     "name": "Vodafone Cash",
-     "detail": "01060163600 · اسم الحساب: Fouad Hussien Fouad. أرسل الإيصال على +20 109 271 8547 لتأكيد مقعدك."
-    }
-   ],
-   "cta_primary": "احجز الآن",
-   "cta_secondary": "قدّم طلبك"
-  },
+      "eyebrow": "الاشتراك",
+      "headline": "12,000 جنيه لـ 40 ساعة كاملة",
+      "headline_plain": "12,000 جنيه لـ",
+      "headline_mark": "40 ساعة كاملة",
+      "sub": "سعر الحجز المبكر قائم ما دامت هناك مقاعد. القيمة واحدة سواء دفعت بالكارت أو بتحويل بنكي أو عبر Vodafone Cash.",
+      "early_label": "الحجز المبكر",
+      "early_price": "12,000",
+      "currency": "جنيه",
+      "regular_label": "السعر العادي",
+      "regular_price": "15,000",
+      "sale_badge": "خصم 20%",
+      "early_pay_label": "تدفع",
+      "save_label": "توفيرك",
+      "save_amount": "3,000 جنيه",
+      "save_note": "خصم 20% من السعر العادي",
+      "save_line": "توفير 3,000 جنيه — خصم 20% من السعر العادي.",
+      "offer_note": "نفس السعر على كل طرق الدفع. المقاعد تُغلق بانتهاء الحجز المبكر.",
+      "includes_label": "الاشتراك يشمل",
+      "includes": [
+         "40 ساعة تدريب حضوري على مدار 10 جلسات في القاهرة الجديدة.",
+         "الدورة الاستراتيجية كاملة في 4 مراحل: تشخيص السوق، اختيار الاستراتيجية، التنفيذ، والاستراتيجية باستخدام AI.",
+         "4 جلسات تطبيقية لتشغيل AI في الاستراتيجية: ذكاء السوق، التحليل، الصياغة، والتحكم في التنفيذ.",
+         "حزمة أدوات الاستراتيجية الكلاسيكية المستخدمة عبر الجلسات العشر — تفاصيلها في المنهج.",
+         "مواد البرنامج لكل نموذج وأداة يتم تناولها داخل القاعة.",
+         "تمارين تطبيقية وحالات دراسية حقيقية ومحاكاة أعمال مبنية على مشروعات عملاء فعلية."
+      ],
+      "payment_label": "ثلاث طرق للدفع",
+      "payment_methods": [
+         {
+            "name": "Fawaterk",
+            "detail": "دفع إلكتروني آمن بالكارت. زر «احجز الآن» يفتح رابط الدفع على Fawaterk مباشرة."
+         },
+         {
+            "name": "تحويل بنكي",
+            "detail": "البنك العربي الأفريقي الدولي · اسم الحساب: Mustaner for Training · رقم الحساب 1191566310010201 · IBAN EG100057001101191566310010201. أرسل الإيصال على +20 109 271 8547 لتأكيد مقعدك.",
+            "blurb": "حوّل إلى البنك العربي الأفريقي الدولي، ثم ابعت الإيصال على واتساب لتأكيد مقعدك."
+         },
+         {
+            "name": "Vodafone Cash",
+            "detail": "01060163600 · اسم الحساب: Fouad Hussien Fouad. أرسل الإيصال على +20 109 271 8547 لتأكيد مقعدك.",
+            "blurb": "ابعت على الرقم التالي، ثم واتساب الإيصال لتأكيد الحجز."
+         }
+      ],
+      "cta_primary": "احجز الآن",
+      "cta_secondary": "قدّم طلبك",
+      "payment_intro": "اختَر الطريقة المناسبة — نفس سعر الحجز المبكر لكل وسيلة.",
+      "pay_bank": "البنك",
+      "pay_account": "الحساب",
+      "pay_acc_no": "رقم الحساب",
+      "pay_number": "الرقم",
+      "payment_label_plain": "ثلاث طرق",
+      "payment_label_mark": "للدفع"
+   },
   "faq": {
    "eyebrow": "أسئلة",
    "headline": "ما يسأل عنه أصحاب القرار قبل الحجز",
+   "headline_plain": "ما يسأل عنه أصحاب القرار قبل",
+   "headline_mark": "الحجز",
    "sub": "لو سؤالك غير موجود هنا، أرسله على +20 109 271 8547 وستصلك إجابة مباشرة.",
    "items": [
     {
@@ -973,32 +1263,52 @@ window.MUSTANER_COPY = {
   "finalcta": {
    "eyebrow": "الدفعة القادمة",
    "headline": "القاعة تكتمل قبل 28 سبتمبر",
+   "headline_plain": "القاعة تكتمل قبل",
+   "headline_mark": "28 سبتمبر",
    "sub": "المقاعد محدودة بطبيعة التنسيق — العمل حضوري داخل القاعة، وليس webinar. احجز بسعر الحجز المبكر، أو أرسل بياناتك ليعود إليك الفريق.",
+   "badge": "حجز مبكر · الدفعة القادمة · المقاعد محدودة",
+   "visual_kicker": "في القاعة — مش على webinar",
+   "price_label": "الحجز المبكر",
+   "meta": [
+      "10 جلسات · 40 ساعة",
+      "الاثنين والأربعاء · 6–10 م",
+      "القاهرة الجديدة · حضوري",
+      "28 سبتمبر – 28 أكتوبر 2026"
+   ],
    "fact_line": "10 جلسات · 40 ساعة · الاثنين والأربعاء من 6:00 مساءً حتى 10:00 مساءً · القاهرة الجديدة، حضوريًا · 28 سبتمبر إلى 28 أكتوبر 2026 · 12,000 جنيه للحجز المبكر بدلًا من 15,000 جنيه.",
    "cta_primary": "احجز الآن",
    "cta_secondary": "قدّم طلبك",
    "cta_tertiary": "حمّل البروشور"
   },
   "footer": {
-   "tagline": "تطوير أعمال وتدريب احترافي — تعليم عملي، وتفكير استراتيجي، ووضوح مالي، وأتمتة للأعمال، في مصر والشرق الأوسط.",
-   "contact_label": "تواصل",
-   "location_label": "المكان",
-   "follow_label": "تابعنا",
-   "rights": "© 2026 مُسْتَنِير. جميع الحقوق محفوظة."
-  },
+      "tagline": "تطوير أعمال وتدريب احترافي — تعليم عملي، وتفكير استراتيجي، ووضوح مالي، وأتمتة للأعمال، في مصر والشرق الأوسط.",
+      "contact_label": "تواصل",
+      "location_label": "المكان",
+      "follow_label": "تابعنا",
+      "rights": "© 2026 مُسْتَنِير. جميع الحقوق محفوظة.",
+      "explore_label": "استكشف",
+      "back_top": "العودة للأعلى"
+   },
   "form": {
-   "title": "قدّم طلبك لحجز مقعد",
-   "sub": "ستة حقول. يرد عليك الفريق على WhatsApp بالتفاصيل التي تحتاجها قبل أن تلتزم.",
-   "f_name": "الاسم بالكامل",
-   "f_job": "المسمى الوظيفي",
-   "f_company": "الشركة",
-   "f_phone": "رقم الهاتف",
-   "f_email": "البريد الإلكتروني",
-   "f_challenge": "ما أكبر تحدٍّ استراتيجي أمامك الآن؟",
-   "submit": "أرسل عبر WhatsApp",
-   "success": "بياناتك جاهزة. WhatsApp يفتح الآن — اضغط إرسال هناك وسيرد عليك الفريق.",
-   "privacy": "لا يتم تخزين أي بيانات على هذه الصفحة. النموذج يفتح WhatsApp ببياناتك مكتوبة داخل الرسالة، ولا يصلنا شيء حتى تضغط إرسال."
-  },
+      "title": "قدّم على مقعد",
+      "sub": "هنرد عليك على واتساب.",
+      "f_name": "الاسم بالكامل",
+      "f_job": "المسمى الوظيفي",
+      "f_company": "الشركة",
+      "f_phone": "رقم الهاتف",
+      "f_email": "البريد الإلكتروني",
+      "f_challenge": "أكبر تحدٍ استراتيجي عندك دلوقتي؟",
+      "submit": "ابعت على واتساب",
+      "success": "واتساب جاهز — اضغط إرسال هناك والفريق هيرد عليك.",
+      "privacy": "مفيش حاجة بتتسجّل هنا. واتساب بيفتح بتفاصيلك — نشوفها بس بعد ما تضغط إرسال.",
+      "eyebrow": "تقديم",
+      "optional": "(اختياري)",
+      "done": "إغلاق",
+      "error_required": "من فضلك املأ الخانات المطلوبة.",
+      "error_email": "اكتب إيميل صحيح، أو سيبه فاضي.",
+      "error_phone": "اكتب رقم موبايل صحيح.",
+      "wa_intro": "مرحبًا مُسْتَنِير، عايز أحجز مكان في كورس Strategic Thinking for Growth."
+   },
   "testimonials": [
    {
     "quote": "كمية تفاهم وليونة في الشرح غير طبيعية. السيشن كانت تحفة بجد، وفعلاً الساعتين كانت بتعدي كأنها دقيقتين.",

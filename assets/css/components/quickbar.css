@@ -1,0 +1,72 @@
+/* ============================================================================
+   MUSTANER — sticky quick info bar
+   ========================================================================== */
+
+/* ============================================================================
+   STICKY QUICK INFO
+   Desktop: sticks under the masthead. Mobile: pinned to the bottom, capped at
+   56px collapsed, expanding into an internally-scrolling sheet.
+   ========================================================================== */
+.quickbar {
+  position: sticky; inset-block-start: var(--header-h); z-index: var(--z-sticky);
+  background: color-mix(in srgb, var(--surface-2) 94%, transparent);
+  border-block: 1px solid var(--line);
+}
+@supports (backdrop-filter: blur(1px)) { .quickbar { backdrop-filter: blur(16px) saturate(150%); } }
+.quickbar-inner {
+  min-block-size: var(--quickbar-h); display: flex; align-items: center;
+  gap: var(--sp-6); padding-block: var(--sp-3);
+}
+.quickbar-data { display: flex; align-items: center; gap: clamp(1rem, 2.4vw, 2.25rem); min-inline-size: 0; flex: 1 1 auto; }
+.quickbar-data .data-cell { flex: 0 1 auto; }
+.quickbar-data .data-value { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.quickbar-price { display: flex; align-items: baseline; gap: var(--sp-2); }
+.quickbar-price .now { font-family: var(--ff-text); font-weight: 700; font-size: 1.0625rem; color: var(--ink); }
+[lang="ar"] .quickbar-price .now { font-family: var(--ff-ar); }
+.quickbar-price .was { font-size: var(--fs-xs); color: var(--ink-3); text-decoration: line-through 1px; }
+.quickbar-actions { display: flex; align-items: center; gap: var(--sp-2); flex: 0 0 auto; }
+/* keep the CTAs clear of the fixed WhatsApp button, which lands on this bar
+   while it is still sitting at the foot of the first viewport */
+@media (min-width: 861px) { .quickbar-actions { padding-inline-end: 56px; } }
+.quickbar-toggle { display: none; }
+
+/* The bar sheds data cells as it narrows so the CTAs never get squeezed.
+   Order of sacrifice: Format, then Duration, then Location. */
+@media (max-width: 1180px) { .quickbar-data .data-cell.opt { display: none; } }
+@media (max-width: 1080px) { .quickbar .btn-text { display: none; } }
+@media (max-width: 1000px) { .quickbar-data .data-cell.opt-2 { display: none; } }
+
+@media (max-width: 860px) {
+  .quickbar {
+    position: fixed; inset-block-start: auto; inset-block-end: 0; inset-inline: 0;
+    border-block-start: 1px solid var(--line-2); border-block-end: 0;
+    padding-block-end: env(safe-area-inset-bottom);
+    box-shadow: 0 -30px 60px -40px #000;
+  }
+  .quickbar-inner {
+    min-block-size: var(--quickbar-h-m); block-size: var(--quickbar-h-m);
+    gap: var(--sp-3); padding-block: var(--sp-2); align-items: center;
+  }
+  .quickbar-data { display: none; }
+  .quickbar-toggle {
+    display: inline-flex; align-items: baseline; gap: var(--sp-2); flex: 1 1 auto;
+    min-inline-size: 0; text-align: start; overflow: hidden;
+  }
+  .quickbar-toggle .data-label,
+  .quickbar-toggle .data-value { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .quickbar-toggle .ico { flex: 0 0 auto; }
+  .quickbar-toggle .ico { transition: transform var(--t-2) var(--e-out); }
+  .quickbar-actions .btn { flex: 0 0 auto; }
+  .quickbar-actions .hide-m { display: none; }
+
+  .quickbar[data-open="true"] { padding-block-end: calc(var(--sp-4) + env(safe-area-inset-bottom)); }
+  .quickbar[data-open="true"] .quickbar-toggle .ico { transform: rotate(180deg); }
+  .quickbar[data-open="true"] .quickbar-data {
+    display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-4);
+    max-block-size: min(45dvh, 340px); overflow-y: auto;
+    padding-block: var(--sp-4) var(--sp-2); order: 2; flex-basis: 100%;
+  }
+  .quickbar[data-open="true"] .quickbar-inner { flex-wrap: wrap; block-size: auto; }
+  body { padding-block-end: calc(var(--quickbar-h-m) + env(safe-area-inset-bottom)); }
+}
+

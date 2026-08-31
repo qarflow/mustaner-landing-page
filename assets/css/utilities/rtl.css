@@ -1,0 +1,16 @@
+/* ============================================================================
+   MUSTANER — RTL + print
+   ========================================================================== */
+
+/* ============================================================================
+   RTL â€” directional glyphs only. Brand geometry stays fixed.
+   ========================================================================== */
+[dir="rtl"] .ico-arrow { transform: scaleX(-1); }
+
+/* Inside the dark hero band of the LIGHT theme, the masthead is still light â€”
+   only the hero subtree flips, and it contains no brand marks. Nothing to do
+   here beyond the token overrides declared at the hero. */
+[dir="rtl"] .nav a::after { transform-origin: bottom; }
+
+/* print: not a target, but keep it from being a black brick */
+@media print { .masthead, .quickbar, .fab, .float-dock, .scroll-top, .hero-bg { display: none !important; } body { background: #fff; color: #000; } }

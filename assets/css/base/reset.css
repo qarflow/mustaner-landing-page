@@ -1,0 +1,102 @@
+/* ============================================================================
+   MUSTANER — base reset & page shell
+   ========================================================================== */
+
+html { background: var(--bg); }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: var(--accent); color: var(--ink-on-accent); }
+img { image-orientation: from-image; max-inline-size: 100%; }
+
+/* Forced-LTR numeric utility — mandatory for IBAN, phone, account numbers,
+   time ranges and URLs when the page is in Arabic. */
+.ltr-num { direction: ltr; unicode-bidi: isolate; font-variant-numeric: tabular-nums; }
+
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-block-start: calc(var(--header-h) + var(--quickbar-h) + var(--sp-4));
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--color-primary) 55%, #9AA6AB) transparent;
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Page scrollbar — WebKit */
+html::-webkit-scrollbar { inline-size: 10px; }
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--color-primary) 45%, #9AA6AB);
+  border-radius: 999px;
+  border: 2px solid var(--bg);
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+:root[data-theme="dark"] html {
+  scrollbar-color: color-mix(in srgb, var(--color-primary) 60%, #4A5559) #06090B;
+}
+:root[data-theme="dark"] html::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--color-primary) 50%, #4A5559);
+  border-color: #000;
+}
+:root[data-theme="dark"] html::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+body {
+  min-block-size: 100dvh;
+  overflow-x: hidden;
+}
+
+a { color: inherit; text-decoration: none; }
+ul, ol { list-style: none; padding: 0; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--r-2); }
+
+.skip-link {
+  position: absolute; inset-block-start: -100px; inset-inline-start: var(--sp-4);
+  z-index: 200; background: var(--surface-2); color: var(--ink);
+  padding: var(--sp-3) var(--sp-5); border: 1px solid var(--line-2); border-radius: var(--r-2);
+}
+.skip-link:focus { inset-block-start: var(--sp-4); }
+
+.shell { inline-size: min(100% - 2 * var(--gutter), var(--maxw)); margin-inline: auto; }
+.shell-wide { inline-size: min(100% - 2 * var(--gutter), var(--maxw-wide)); margin-inline: auto; }
+.section {
+  padding-block: var(--section-y);
+  position: relative;
+}
+.section + .section {
+  /* keep rhythm equal even if nested blocks add visual weight */
+  scroll-margin-block-start: calc(var(--header-h) + var(--quickbar-h) + var(--sp-4));
+}
+.section-head {
+  margin-block-end: var(--section-head-gap, clamp(2rem, 4vw, 3rem));
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-head .eyebrow { justify-content: center; }
+.section-head .sh { justify-content: center; }
+.section-head .t-lead {
+  margin-block-start: var(--sp-4);
+  margin-inline: auto;
+  text-align: center;
+  max-inline-size: 46ch;
+}
+.rule { display: none; }
+.visually-hidden {
+  position: absolute; inline-size: 1px; block-size: 1px; padding: 0;
+  margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap;
+}
+
+html.modal-open { overflow: hidden; }

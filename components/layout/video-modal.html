@@ -1,0 +1,16 @@
+<dialog class="video-modal" id="videoModal" aria-modal="true" aria-labelledby="videoModalTitle">
+  <div class="video-modal-panel">
+    <div class="video-modal-bar">
+      <p class="video-modal-title" id="videoModalTitle" data-i18n="video.eyebrow">Course Introduction</p>
+      <button class="video-modal-close" id="videoModalClose" type="button"
+              data-i18n-attr="aria-label|ui.close" aria-label="Close">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="video-modal-stage">
+      <video id="courseVideoModal" playsinline controls preload="metadata"
+             src="assets/video/course-intro.mp4"
+             controlslist="nodownload"></video>
+    </div>
+  </div>
+</dialog>

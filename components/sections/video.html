@@ -1,0 +1,89 @@
+<section class="section" id="video">
+  <div class="shell video-grid">
+    <div class="device device--inline reveal">
+      <div class="device-screen">
+        <!-- `#t=0.4` paints the frame at 0.4s as the poster. -->
+        <video id="courseVideo" playsinline preload="metadata" muted
+               src="assets/video/course-intro.mp4#t=0.4"></video>
+        <button class="video-play" id="videoPlay" type="button" aria-label="Play the programme video" data-i18n-attr="aria-label|ui.play_video">
+          <span class="play-btn"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.54.84l10.3-6.86a1 1 0 0 0 0-1.68L9.54 4.3A1 1 0 0 0 8 5.14Z"/></svg></span>
+        </button>
+      </div>
+    </div>
+
+    <button class="video-teaser reveal" id="videoTeaser" type="button"
+            aria-haspopup="dialog" aria-controls="videoModal"
+            data-i18n-attr="aria-label|ui.play_video">
+      <span class="video-teaser-frame" aria-hidden="true">
+        <video class="video-teaser-media" playsinline preload="metadata" muted
+               src="assets/video/course-intro.mp4#t=0.4" tabindex="-1"></video>
+        <span class="video-teaser-shade"></span>
+        <span class="play-btn"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.54.84l10.3-6.86a1 1 0 0 0 0-1.68L9.54 4.3A1 1 0 0 0 8 5.14Z"/></svg></span>
+      </span>
+      <span class="video-teaser-caption">
+        <span class="video-teaser-kicker" data-i18n="video.eyebrow">Course Introduction</span>
+        <span class="video-teaser-action" data-i18n="ui.play_video">Play the programme video</span>
+      </span>
+    </button>
+
+    <div class="video-copy reveal reveal-d1">
+      <p class="eyebrow" data-i18n="video.eyebrow">Course Introduction</p>
+      <h2 class="sh">
+        <span class="sh-plain" data-i18n="video.headline_plain">See How the Programme</span>
+        <span class="sh-mark sh-mark--primary" data-i18n="video.headline_mark">Works</span>
+      </h2>
+      <p class="t-lead" data-i18n="video.body">Thirty seconds is enough to see what you are buying: the room, the pace, and the four phases that take you from market diagnosis to a strategy your team can actually run. Watch it before you read anything else on this page.</p>
+
+      <ul class="video-highlights" aria-label="Programme highlights">
+        <li class="video-hl">
+          <span class="video-hl-icon" aria-hidden="true"><i class="fa-solid fa-building"></i></span>
+          <span class="video-hl-text">
+            <strong data-i18n="video.highlights.0.title">Your company, not a case study</strong>
+            <span data-i18n="video.highlights.0.body">Every framework is applied to your market and numbers</span>
+          </span>
+        </li>
+        <li class="video-hl">
+          <span class="video-hl-icon" aria-hidden="true"><i class="fa-solid fa-users"></i></span>
+          <span class="video-hl-text">
+            <strong data-i18n="video.highlights.1.title">Senior room by design</strong>
+            <span data-i18n="video.highlights.1.body">CEOs, founders and managers who own the decision</span>
+          </span>
+        </li>
+        <li class="video-hl">
+          <span class="video-hl-icon" aria-hidden="true"><i class="fa-solid fa-bullseye"></i></span>
+          <span class="video-hl-text">
+            <strong data-i18n="video.highlights.2.title">Strategy you can defend</strong>
+            <span data-i18n="video.highlights.2.body">A plan with owners, KPIs and board-ready language</span>
+          </span>
+        </li>
+        <li class="video-hl">
+          <span class="video-hl-icon" aria-hidden="true"><i class="fa-solid fa-robot"></i></span>
+          <span class="video-hl-text">
+            <strong data-i18n="video.highlights.3.title">Four applied AI sessions</strong>
+            <span data-i18n="video.highlights.3.body">Research, scenarios, growth maps and live dashboards</span>
+          </span>
+        </li>
+      </ul>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://app.fawaterk.com/paymentRequest/show/38638" target="_blank" rel="noopener" data-i18n="hero.cta_primary">Reserve Your Seat</a>
+        <button class="btn btn-ghost js-apply" type="button" data-i18n="hero.cta_secondary">Apply Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<dialog class="video-modal" id="videoModal" aria-modal="true" aria-labelledby="videoModalTitle">
+  <div class="video-modal-panel">
+    <div class="video-modal-head">
+      <p class="video-modal-title" id="videoModalTitle" data-i18n="video.eyebrow">Course Introduction</p>
+      <button class="video-modal-close" id="videoModalClose" type="button" aria-label="Close" data-i18n-attr="aria-label|ui.close">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="video-modal-stage">
+      <video id="courseVideoModal" playsinline controls preload="metadata"
+             src="assets/video/course-intro.mp4"></video>
+    </div>
+  </div>
+</dialog>

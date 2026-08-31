@@ -1,0 +1,57 @@
+<dialog class="modal" id="applyModal" aria-labelledby="applyTitle">
+  <div class="modal-panel">
+    <div class="modal-head">
+      <div>
+        <p class="eyebrow" data-i18n="form.eyebrow">Apply</p>
+        <h2 class="t-h3" id="applyTitle" data-i18n="form.title">Apply for a seat</h2>
+        <p class="modal-sub" data-i18n="form.sub">We’ll reply on WhatsApp.</p>
+      </div>
+      <button class="modal-close" id="modalClose" type="button" aria-label="Close"
+              data-i18n-attr="aria-label|ui.close"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    </div>
+
+    <form class="form" id="applyForm" novalidate>
+      <div class="form-grid">
+        <div class="field">
+          <label for="f-name" data-i18n="form.f_name">Full name</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" dir="auto" required>
+        </div>
+        <div class="field">
+          <label for="f-job" data-i18n="form.f_job">Job title</label>
+          <input id="f-job" name="job" type="text" autocomplete="organization-title" dir="auto" required>
+        </div>
+        <div class="field">
+          <label for="f-company" data-i18n="form.f_company">Company</label>
+          <input id="f-company" name="company" type="text" autocomplete="organization" dir="auto" required>
+        </div>
+        <div class="field">
+          <label for="f-phone" data-i18n="form.f_phone">Phone</label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" dir="ltr" required>
+        </div>
+        <div class="field field--full">
+          <label for="f-email" data-i18n="form.f_email">Email <span class="field-opt" data-i18n="form.optional">(optional)</span></label>
+          <input id="f-email" name="email" type="email" autocomplete="email" dir="ltr">
+        </div>
+        <div class="field field--full">
+          <label for="f-challenge" data-i18n="form.f_challenge">Biggest strategic challenge right now?</label>
+          <textarea id="f-challenge" name="challenge" dir="auto" rows="2"></textarea>
+        </div>
+      </div>
+      <p class="form-error" id="formError" role="alert" hidden></p>
+      <button class="btn btn-primary btn-lg form-submit" type="submit" id="formSubmit">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        <span data-i18n="form.submit">Send on WhatsApp</span>
+      </button>
+    </form>
+
+    <div class="form-success" id="applySuccess" hidden>
+      <span class="ok" aria-hidden="true"><i class="fa-solid fa-check"></i></span>
+      <p data-i18n="form.success">WhatsApp is ready — press send there and the team will reply.</p>
+      <a class="btn btn-primary btn-lg" id="waFallback" href="https://wa.me/201092718547" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        <span data-i18n="ui.whatsapp_label">Chat on WhatsApp</span>
+      </a>
+      <button class="btn btn-ghost" type="button" id="modalDone" data-i18n="form.done">Close</button>
+    </div>
+  </div>
+</dialog>

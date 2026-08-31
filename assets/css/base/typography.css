@@ -1,0 +1,253 @@
+/* ============================================================================
+   MUSTANER — typography
+   English: Clash Display only.
+   Arabic:  IBM Plex Sans Arabic only.
+   No third / mono face.
+   ========================================================================== */
+
+:root {
+  --ff-display: "Clash Display", "Segoe UI", Tahoma, system-ui, sans-serif;
+  --ff-text:    "Clash Display", "Segoe UI", Tahoma, system-ui, sans-serif;
+  --ff-ar:      "IBM Plex Sans Arabic", "Segoe UI", Tahoma, "Geeza Pro", sans-serif;
+
+  /* ---- fluid scale (headings stepped down) ---- */
+  --fs-display: clamp(2.0rem, 1.05rem + 4.2vw, 3.75rem);
+  --fs-h2:      clamp(1.5rem, 1.05rem + 1.8vw, 2.375rem);
+  --fs-h3:      clamp(1.125rem, 1.0rem + 0.55vw, 1.4375rem);
+  --fs-h4:      clamp(1.0rem, 0.95rem + 0.25vw, 1.125rem);
+  --fs-lead:    clamp(1.0rem, 0.92rem + 0.4vw, 1.1875rem);
+  --fs-body:    clamp(0.9375rem, 0.9rem + 0.22vw, 1.0625rem);
+  --fs-sm:      0.875rem;
+  --fs-xs:      0.8125rem;
+  --fs-meta:    0.75rem;
+  --fs-numeral: clamp(2.5rem, 1.4rem + 4.2vw, 4.5rem);
+  --fs-index:   clamp(0.8125rem, 0.75rem + 0.25vw, 0.9375rem);
+
+  --lh-display: 1.02;
+  --lh-h2:      1.12;
+  --lh-h3:      1.25;
+  --lh-body:    1.65;
+  --lh-lead:    1.55;
+  --lh-meta:    1.35;
+
+  --ls-display: -0.015em;
+  --ls-h2:      -0.01em;
+  --ls-h3:      -0.004em;
+  --ls-body:    0;
+  --ls-meta:    0.04em;
+}
+
+body {
+  font-family: var(--ff-text);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  letter-spacing: var(--ls-body);
+  font-weight: 400;
+}
+
+h1, .t-display {
+  font-family: var(--ff-display);
+  font-weight: 700;
+  font-size: var(--fs-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--ls-display);
+  text-wrap: balance;
+  margin: 0;
+}
+
+h2, .t-h2, .sh {
+  font-family: var(--ff-display);
+  font-weight: 700;
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
+  letter-spacing: var(--ls-h2);
+  text-wrap: balance;
+  margin: 0;
+}
+
+h3, .t-h3 {
+  font-family: var(--ff-display);
+  font-weight: 600;
+  font-size: var(--fs-h3);
+  line-height: var(--lh-h3);
+  letter-spacing: var(--ls-h3);
+  margin: 0;
+}
+
+h4, .t-h4 {
+  font-family: var(--ff-text);
+  font-weight: 600;
+  font-size: var(--fs-h4);
+  line-height: 1.35;
+  margin: 0;
+}
+
+.t-lead {
+  font-size: var(--fs-lead);
+  line-height: var(--lh-lead);
+  color: var(--ink-2);
+  max-inline-size: 46ch;
+}
+
+p {
+  max-inline-size: var(--maxw-text);
+  margin-block: 0 var(--sp-4);
+  color: var(--ink-2);
+}
+
+h1, .t-display,
+h2, .t-h2,
+h3, .t-h3,
+h4, .t-h4,
+.sh {
+  color: var(--ink);
+}
+
+/* Meta labels — same family as body, slightly smaller / heavier */
+.eyebrow, .t-index, time, .data-label {
+  font-family: var(--ff-text);
+  font-size: var(--fs-meta);
+  font-weight: 600;
+  line-height: var(--lh-meta);
+  letter-spacing: var(--ls-meta);
+  text-transform: none;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-3);
+}
+
+.t-index {
+  font-size: var(--fs-index);
+  font-weight: 700;
+  color: var(--ink-4);
+  letter-spacing: 0.02em;
+}
+
+.t-numeral {
+  font-family: var(--ff-display);
+  font-weight: 700;
+  font-size: var(--fs-numeral);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ============================================================================
+   ARABIC / RTL TYPOGRAPHY
+   ========================================================================== */
+[lang="ar"] body,
+[lang="ar"] {
+  font-family: var(--ff-ar);
+  font-size: var(--fs-body);
+  line-height: calc(var(--lh-body) * 1.12);
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+[lang="ar"] h1, [lang="ar"] .t-display {
+  font-family: var(--ff-ar);
+  font-weight: 700;
+  font-size: calc(var(--fs-display) * 0.92);
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+[lang="ar"] h2, [lang="ar"] .t-h2,
+[lang="ar"] .sh {
+  font-family: var(--ff-ar);
+  font-weight: 700;
+  font-size: calc(var(--fs-h2) * 0.92);
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+[lang="ar"] h3, [lang="ar"] .t-h3,
+[lang="ar"] h4, [lang="ar"] .t-h4 {
+  font-family: var(--ff-ar);
+  font-weight: 600;
+  line-height: 1.42;
+  letter-spacing: 0;
+}
+
+[lang="ar"] h3, [lang="ar"] .t-h3 {
+  font-size: calc(var(--fs-h3) * 0.94);
+}
+
+[lang="ar"] h4, [lang="ar"] .t-h4 {
+  font-size: calc(var(--fs-h4) * 0.96);
+}
+
+[lang="ar"] .t-lead {
+  font-size: calc(var(--fs-lead) * 0.94);
+  line-height: 1.8;
+  max-inline-size: 44ch;
+}
+[lang="ar"] p { line-height: 1.85; }
+
+[lang="ar"] .eyebrow,
+[lang="ar"] .data-label,
+[lang="ar"] .t-index,
+[lang="ar"] time {
+  font-family: var(--ff-ar);
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+[lang="ar"] .t-numeral,
+[lang="ar"] .ltr-num {
+  font-family: var(--ff-ar);
+  letter-spacing: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+[lang="ar"] .lat {
+  font-family: var(--ff-text);
+  font-weight: 500;
+  letter-spacing: 0;
+  unicode-bidi: isolate;
+}
+
+/* Desktop Arabic — tighten headings + paragraphs (Arabic glyphs read larger) */
+@media (min-width: 901px) {
+  [lang="ar"] body,
+  [lang="ar"] {
+    font-size: calc(var(--fs-body) * 0.94);
+  }
+
+  [lang="ar"] h1, [lang="ar"] .t-display {
+    font-size: calc(var(--fs-display) * 0.82);
+  }
+
+  [lang="ar"] h2, [lang="ar"] .t-h2,
+  [lang="ar"] .sh {
+    font-size: calc(var(--fs-h2) * 0.84);
+  }
+
+  [lang="ar"] h3, [lang="ar"] .t-h3 {
+    font-size: calc(var(--fs-h3) * 0.88);
+  }
+
+  [lang="ar"] h4, [lang="ar"] .t-h4 {
+    font-size: calc(var(--fs-h4) * 0.9);
+  }
+
+  [lang="ar"] .t-lead {
+    font-size: calc(var(--fs-lead) * 0.88);
+  }
+
+  [lang="ar"] p {
+    font-size: calc(var(--fs-body) * 0.94);
+  }
+
+  [lang="ar"] .hero h1 {
+    font-size: clamp(1.55rem, 1.15rem + 1.5vw, 2.35rem);
+  }
+
+  [lang="ar"] .hero .t-lead {
+    font-size: clamp(0.88rem, 0.82rem + 0.2vw, 1.02rem);
+  }
+
+  [lang="ar"] .block-title {
+    font-size: clamp(1.15rem, 0.95rem + 0.75vw, 1.55rem);
+  }
+}

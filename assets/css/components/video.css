@@ -1,0 +1,349 @@
+/* ============================================================================
+   MUSTANER — course video (desktop phone + mobile popup)
+   ========================================================================== */
+
+.video-grid {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+
+.device {
+  position: relative;
+  inline-size: min(360px, 38vw);
+  aspect-ratio: 9 / 16;
+  max-block-size: 78dvh;
+  block-size: auto;
+  border-radius: var(--r-device);
+  padding: 10px;
+  background: var(--grad-brand);
+  box-shadow: var(--glow-plate);
+  flex: 0 0 auto;
+  justify-self: center;
+}
+.device-screen {
+  position: relative;
+  inline-size: 100%;
+  block-size: 100%;
+  border-radius: calc(var(--r-device) - 8px);
+  overflow: hidden;
+  background: #000;
+}
+.device-screen video {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  display: block;
+}
+.video-play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  gap: var(--sp-4);
+  background: linear-gradient(to top, rgba(0,0,0,.72), rgba(0,0,0,.18) 55%, rgba(0,0,0,.45));
+  transition: opacity var(--t-2) var(--e-out);
+}
+.video-play[hidden] { display: none; }
+.play-btn {
+  inline-size: 68px;
+  block-size: 68px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.95);
+  color: #00140E;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 18px 50px -18px rgba(0,0,0,.9);
+  transition: transform var(--t-2) var(--e-out);
+}
+.play-btn:hover { transform: scale(1.06); }
+
+/* Mobile teaser — compact card that opens the popup */
+.video-teaser {
+  display: none;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  text-align: start;
+  cursor: pointer;
+  color: inherit;
+}
+.video-teaser-frame {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: calc(var(--r-card) - 4px);
+  overflow: hidden;
+  background: #000;
+  border: 1px solid rgba(10, 18, 20, .1);
+  box-shadow: 0 18px 40px -28px rgba(10, 18, 20, .45);
+}
+.video-teaser-media {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+}
+.video-teaser-shade {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(0deg, rgba(2, 21, 18, .72) 0%, rgba(2, 21, 18, .2) 45%, rgba(2, 21, 18, .35) 100%);
+}
+.video-teaser-frame .play-btn {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  translate: -50% -50%;
+  inline-size: 58px;
+  block-size: 58px;
+  z-index: 1;
+}
+.video-teaser:hover .play-btn,
+.video-teaser:focus-visible .play-btn {
+  transform: scale(1.06);
+}
+.video-teaser-caption {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-block-start: 0.7rem;
+  padding-inline: 0.1rem;
+}
+.video-teaser-kicker {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+[lang="ar"] .video-teaser-kicker {
+  font-family: var(--ff-ar);
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 0.8rem;
+}
+.video-teaser-action {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.video-copy { text-align: start; }
+.video-copy .sh { justify-content: flex-start; }
+.video-copy .eyebrow { justify-content: flex-start; }
+.video-copy .t-lead {
+  text-align: start;
+  margin-inline: 0;
+  max-inline-size: 46ch;
+}
+
+.video-highlights {
+  list-style: none;
+  margin: clamp(1.35rem, 2.5vw, 1.85rem) 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2.2vw, 1.5rem) clamp(1.1rem, 2.5vw, 1.85rem);
+  max-inline-size: 36rem;
+}
+.video-hl {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.85rem;
+  align-items: center;
+}
+.video-hl-icon {
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border-radius: 0.7rem;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  color: #fff;
+  background: linear-gradient(145deg, #F0A94A 0%, #EF9C21 48%, #D98412 100%);
+  box-shadow:
+    0 10px 22px -12px rgba(239, 156, 33, .7),
+    inset 0 1px 0 rgba(255, 255, 255, .28);
+  font-size: 1.05rem;
+}
+.video-hl-text {
+  display: grid;
+  gap: 0.18rem;
+  min-inline-size: 0;
+}
+.video-hl-text strong {
+  margin: 0;
+  font-family: var(--ff-display);
+  font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.08rem);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  line-height: 1.25;
+}
+[lang="ar"] .video-hl-text strong { font-family: var(--ff-ar); letter-spacing: 0; }
+.video-hl-text span {
+  margin: 0;
+  font-size: clamp(0.8rem, 0.76rem + 0.15vw, 0.9rem);
+  line-height: 1.4;
+  color: var(--ink-2);
+}
+
+.video-copy .cta-row {
+  margin-block-start: var(--sp-8);
+  justify-content: flex-start;
+}
+.video-meta { margin-block-start: var(--sp-6); color: var(--ink-4); }
+
+/* Video popup */
+.video-modal {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  inline-size: min(920px, calc(100vw - 1rem));
+  max-block-size: calc(100dvh - 1rem);
+  padding: 0;
+  border: 0;
+  border-radius: var(--r-card);
+  background: transparent;
+  color: var(--ink);
+  overflow: visible;
+  outline: none;
+  opacity: 0;
+  transform: translateY(16px) scale(0.97);
+  transition:
+    opacity 280ms var(--e-out),
+    transform 320ms var(--e-out),
+    overlay 280ms allow-discrete,
+    display 280ms allow-discrete;
+}
+.video-modal[open] { display: block; }
+.video-modal[open].is-open {
+  opacity: 1;
+  transform: none;
+}
+.video-modal.is-closing {
+  opacity: 0;
+  transform: translateY(10px) scale(0.98);
+}
+.video-modal::backdrop {
+  background: rgba(2, 12, 14, .78);
+  opacity: 0;
+  transition: opacity 280ms var(--e-out), overlay 280ms allow-discrete, display 280ms allow-discrete;
+}
+@supports (backdrop-filter: blur(1px)) {
+  .video-modal::backdrop { backdrop-filter: blur(8px); }
+}
+.video-modal[open].is-open::backdrop { opacity: 1; }
+
+.video-modal-panel {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border-radius: inherit;
+  background: #0a1214;
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 28px 80px -28px rgba(0, 0, 0, .75);
+}
+.video-modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-inline: 0.25rem;
+}
+.video-modal-title {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.72);
+}
+[lang="ar"] .video-modal-title {
+  font-family: var(--ff-ar);
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 0.9rem;
+}
+.video-modal-close {
+  inline-size: 36px;
+  block-size: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.08);
+  color: #fff;
+  cursor: pointer;
+}
+.video-modal-close:hover {
+  background: rgba(255,255,255,.16);
+}
+.video-modal-stage {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+  aspect-ratio: 16 / 9;
+}
+.video-modal-stage video {
+  inline-size: 100%;
+  block-size: 100%;
+  display: block;
+  object-fit: contain;
+  background: #000;
+}
+
+@media (max-width: 900px) {
+  .video-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--sp-7);
+  }
+  .device--inline { display: none; }
+  .video-teaser { display: block; }
+  .video-copy { text-align: start; }
+  .video-highlights { max-inline-size: none; }
+  .video-modal {
+    inline-size: calc(100vw - 0.75rem);
+    max-block-size: calc(100dvh - 0.75rem);
+    align-self: center;
+  }
+  .video-modal-panel {
+    padding: 0.65rem;
+  }
+  .video-modal-stage {
+    aspect-ratio: 9 / 16;
+    max-block-size: min(72dvh, 560px);
+    margin-inline: auto;
+    inline-size: min(100%, 360px);
+  }
+  .video-modal-stage video {
+    object-fit: cover;
+  }
+}
+@media (max-width: 560px) {
+  .video-highlights {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .video-hl-icon {
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    font-size: 0.95rem;
+  }
+  .video-teaser-frame .play-btn {
+    inline-size: 52px;
+    block-size: 52px;
+  }
+}
+
+@media (min-width: 901px) {
+  .video-teaser { display: none !important; }
+  .device--inline { display: block; }
+}

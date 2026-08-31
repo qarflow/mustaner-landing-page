@@ -1,0 +1,19 @@
+/* ============================================================================
+   MUSTANER — motion / scroll reveal
+   ========================================================================== */
+
+/* ============================================================================
+   MOTION â€” scroll reveal, block axis and opacity only
+   ========================================================================== */
+/* Scoped to .js so that if the scripts fail to load â€” offline, blocked, a
+   typo in a path â€” the page still renders fully instead of going blank. */
+.js .reveal { opacity: 0; transform: translateY(18px); transition: opacity var(--t-4) var(--e-out), transform var(--t-4) var(--e-out); }
+.js .reveal.in { opacity: 1; transform: none; }
+.reveal-d1 { transition-delay: 70ms; }
+.reveal-d2 { transition-delay: 140ms; }
+.reveal-d3 { transition-delay: 210ms; }
+@media (prefers-reduced-motion: reduce) {
+  .js .reveal, .js .reveal.in { opacity: 1; transform: none; transition: none; }
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}
+
