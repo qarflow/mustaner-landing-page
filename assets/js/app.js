@@ -208,7 +208,10 @@
   }
 
   $$('.js-apply').forEach(function (btn) {
-    btn.addEventListener('click', function () { openModal(btn); });
+    btn.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      openModal(btn);
+    });
   });
 
   var closeBtn = $('#modalClose');

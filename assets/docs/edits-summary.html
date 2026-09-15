@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ملخص التعديلات | Mustaner Landing Page</title>
+  <style>
+    :root {
+      --ink: #0f1c1a;
+      --ink-2: #3d4f4a;
+      --ink-3: #6b7c76;
+      --line: #d7e0dc;
+      --surface: #f7faf8;
+      --card: #ffffff;
+      --green: #057a57;
+      --green-soft: #e8f6ef;
+      --blue: #116cb5;
+      --ok: #057a57;
+      --warn: #b45309;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 500px at 100% -10%, #dff3ea 0%, transparent 55%),
+        radial-gradient(900px 400px at 0% 0%, #dceaf8 0%, transparent 50%),
+        var(--surface);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      margin: 0 0 0.4rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--green);
+    }
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+      line-height: 1.25;
+    }
+    .meta {
+      margin: 0;
+      color: var(--ink-3);
+      font-size: 0.95rem;
+    }
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.75rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .stat {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 1rem 1.1rem;
+    }
+    .stat b {
+      display: block;
+      font-size: 1.6rem;
+      color: var(--green);
+      line-height: 1;
+      margin-bottom: 0.35rem;
+    }
+    .stat span { color: var(--ink-3); font-size: 0.85rem; font-weight: 600; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 1.15rem 1.25rem 1.25rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 10px 30px -24px rgba(15, 28, 26, 0.35);
+    }
+    .card-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+    .num {
+      display: inline-grid;
+      place-items: center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 10px;
+      background: var(--green-soft);
+      color: var(--green);
+      font-weight: 800;
+      flex: 0 0 auto;
+    }
+    .title-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      min-width: 0;
+    }
+    h2 {
+      margin: 0;
+      font-size: 1.05rem;
+      line-height: 1.4;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.28rem 0.65rem;
+      border-radius: 999px;
+      background: var(--green-soft);
+      color: var(--ok);
+      font-size: 0.75rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .badge::before {
+      content: "";
+      width: 0.45rem;
+      height: 0.45rem;
+      border-radius: 50%;
+      background: currentColor;
+    }
+    .req {
+      margin: 0 0 0.85rem;
+      color: var(--ink-2);
+      font-size: 0.95rem;
+    }
+    .req strong { color: var(--ink); }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 0.45rem;
+    }
+    li {
+      position: relative;
+      padding: 0.55rem 0.75rem 0.55rem 0.85rem;
+      border-radius: 10px;
+      background: #f3f7f5;
+      border: 1px solid #e4ece8;
+      font-size: 0.92rem;
+      color: var(--ink-2);
+    }
+    [dir="ltr"] li { padding: 0.55rem 0.85rem 0.55rem 0.75rem; }
+    li::before {
+      content: "✓";
+      color: var(--green);
+      font-weight: 800;
+      margin-inline-end: 0.45rem;
+    }
+    .en {
+      margin-top: 0.85rem;
+      padding-top: 0.85rem;
+      border-top: 1px dashed var(--line);
+      direction: ltr;
+      text-align: left;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    .en h3 {
+      margin: 0 0 0.4rem;
+      font-size: 0.95rem;
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    }
+    .en p, .en li {
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      font-size: 0.88rem;
+    }
+    .en p { margin: 0 0 0.55rem; color: var(--ink-3); }
+    a {
+      color: var(--blue);
+      font-weight: 600;
+      word-break: break-all;
+    }
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      color: var(--ink-3);
+      font-size: 0.85rem;
+    }
+    @media (max-width: 720px) {
+      .summary { grid-template-columns: 1fr; }
+      .card-head { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="eyebrow">Mustaner · Landing Page</p>
+      <h1>ملخص التعديلات المنفّذة على صفحة البرنامج</h1>
+      <p class="meta">Strategic Thinking for Growth — تحديثات المحتوى والـ CTA والمواعيد والمدربين</p>
+    </header>
+
+    <div class="summary">
+      <div class="stat"><b>6</b><span>طلبات تم تنفيذها</span></div>
+      <div class="stat"><b>EN + AR</b><span>نسخ ثنائية اللغة</span></div>
+      <div class="stat"><b>Done</b><span>جاهز للمراجعة</span></div>
+    </div>
+
+    <article class="card">
+      <div class="card-head">
+        <div class="title-row">
+          <span class="num">1</span>
+          <h2>لينك الدفع (Fawaterk) → لينك الكورس نفسه</h2>
+        </div>
+        <span class="badge">تم</span>
+      </div>
+      <p class="req"><strong>المطلوب:</strong> استبدال لينك الدفع القديم بصفحة الكورس على فواتيرك.</p>
+      <ul>
+        <li>كل أزرار الدفع / Pay Now تشير إلى:
+          <a href="https://app.fawaterk.com/pg/strategic-thinking-for-growth" target="_blank" rel="noopener">https://app.fawaterk.com/pg/strategic-thinking-for-growth</a>
+        </li>
+        <li>يشمل: الهيرو، النافبار، الشريط الثابت، الرسوم، الـ CTA النهائي، والقائمة الموبايل</li>
+      </ul>
+      <div class="en">
+        <h3>1. Fawaterk payment link → course page</h3>
+        <p>All Pay Now CTAs now open the Fawaterk course page above (not an old payment-request URL).</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div class="title-row">
+          <span class="num">2</span>
+          <h2>تقليل تشتيت الـ CTAs في مكان واحد</h2>
+        </div>
+        <span class="badge">تم</span>
+      </div>
+      <p class="req"><strong>المطلوب:</strong> تقليل كثرة الأزرار في نفس الموضع حتى لا يتشتت القرار.</p>
+      <ul>
+        <li>الهيرو أصبح زرّين فقط: <strong>Pay Now</strong> و <strong>Apply via WhatsApp</strong></li>
+        <li>إزالة تلميحات الهيرو الزائدة تحت الأزرار</li>
+        <li>توحيد تسمية الدفع إلى Pay Now / ادفع الآن</li>
+        <li>الشريط الثابت والموبايل يعرضان قرارًا أوضح (دفع + تقديم عبر واتساب)</li>
+      </ul>
+      <div class="en">
+        <h3>2. Fewer competing CTAs</h3>
+        <p>Hero reduced to two clear actions. Labels unified so the page does not present too many choices in one place.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div class="title-row">
+          <span class="num">3</span>
+          <h2>تعديل عنوان / مكان الكورس</h2>
+        </div>
+        <span class="badge">تم</span>
+      </div>
+      <p class="req"><strong>المطلوب:</strong> تحديث المكان إلى <strong>Kapitalize The District Vill</strong>.</p>
+      <ul>
+        <li>تم تحديث المكان في الهيرو، الشريط السريع، المواعيد، الرسوم، الـ CTA النهائي، والفوتر</li>
+        <li>المكان قابل للضغط ويفتح خرائط جوجل</li>
+        <li>النص المعتمد: Kapitalize The District Vill, New Cairo</li>
+      </ul>
+      <div class="en">
+        <h3>3. Venue update</h3>
+        <p>Venue set to Kapitalize The District Vill, New Cairo, with a clickable Google Maps link across the page.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div class="title-row">
+          <span class="num">4</span>
+          <h2>تعديل التواريخ والمواعيد الجديدة</h2>
+        </div>
+        <span class="badge">تم</span>
+      </div>
+      <p class="req"><strong>المطلوب:</strong> تحديث تواريخ الدفعة والمواعيد.</p>
+      <ul>
+        <li>الفترة: <strong>12 أكتوبر – 11 نوفمبر 2026</strong></li>
+        <li>اليوم والوقت: الاثنين والأربعاء · 6:00 م – 10:00 م</li>
+        <li>10 جلسات منشورة في جدول المواعيد (Schedule)</li>
+        <li>تم تحديث النصوص في EN و AR (هيرو، FAQ، CTA نهائي، ملخص الجدول…)</li>
+      </ul>
+      <div class="en">
+        <h3>4. New dates &amp; schedule</h3>
+        <p>Cohort runs Oct 12 – Nov 11, 2026 · Mon &amp; Wed · 6:00–10:00 PM · 10 published sessions.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div class="title-row">
+          <span class="num">5</span>
+          <h2>توضيح الفرق بين Apply و Book / Pay</h2>
+        </div>
+        <span class="badge">تم</span>
+      </div>
+      <p class="req"><strong>المطلوب:</strong> توضيح فرق القرار بين التقديم والحجز/الدفع.</p>
+      <ul>
+        <li><strong>Pay Now / ادفع الآن:</strong> يفتح صفحة الدفع على فواتيرك لتأكيد المقعد مباشرة</li>
+        <li><strong>Apply via WhatsApp / قدّم عبر واتساب:</strong> يفتح واتساب برسالة تقديم جاهزة للتواصل مع الفريق قبل الدفع</li>
+        <li>أيقونة واتساب ظاهرة على زر التقديم، والرسالة المسبقة مختلفة عن رسالة الاستفسار العامة</li>
+      </ul>
+      <div class="en">
+        <h3>5. Apply vs Pay clarified</h3>
+        <p><strong>Pay Now</strong> = pay on Fawaterk and secure the seat. <strong>Apply via WhatsApp</strong> = message the team first with an apply prefill.</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div class="title-row">
+          <span class="num">6</span>
+          <h2>إضافة بايو للمدربين (Trainers)</h2>
+        </div>
+        <span class="badge">تم</span>
+      </div>
+      <p class="req"><strong>المطلوب:</strong> إضافة قسم المدربين مع النبذات.</p>
+      <ul>
+        <li>قسم <strong>المدربين / Trainers</strong> في الصفحة مع صورة لكل مدرب</li>
+        <li><strong>د. فؤاد حسين / Dr. Fouad Houssien</strong> — النبذة، النقاط الأبرز بأيقونات، والشهادات الدولية</li>
+        <li><strong>أحمد المغربي / Ahmed ElMaghraby</strong> — النبذة، النقاط الأبرز بأيقونات، والشهادات والإنجازات</li>
+        <li>رابط القسم موجود في النافبار والفوتر</li>
+      </ul>
+      <div class="en">
+        <h3>6. Trainer bios added</h3>
+        <p>Faculty/Trainers section includes photos, short bios, icon highlights, and credential chips for Dr. Fouad Houssien and Ahmed ElMaghraby (EN + AR).</p>
+      </div>
+    </article>
+
+    <footer>
+      <p>ملف متابعة داخلي لتعديلات صفحة الهبوط — Mustaner · Strategic Thinking for Growth.</p>
+      <p>تاريخ الملخص: 15 سبتمبر 2026</p>
+    </footer>
+  </div>
+</body>
+</html>

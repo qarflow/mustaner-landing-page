@@ -49,7 +49,7 @@ window.MUSTANER_COPY = {
     },
     {
      "label": "Location",
-     "value": "Kapitalize The District Vill, New Cairo"
+     "value": "Kapitalize · New Cairo"
     },
     {
      "label": "Investment",
@@ -465,10 +465,22 @@ window.MUSTANER_COPY = {
      "lead": "Founder of Mustaner, Certified Finance Trainer, and Business Tech Expert with 10+ years across financial modeling, investment analysis, business strategy, technology, and executive training.",
      "body": "Worked with 15+ leading organizations across banking, FMCG, telecom, logistics, and tech — including Vodafone, Talabat, Juhayna, Al Rajhi Bank, EFG Hermes, and Arab African International Bank.",
      "highlights": [
-      "10+ years experience",
-      "15+ organizations",
-      "Finance · Strategy · AI",
-      "MBA · Investment & Finance"
+      {
+       "title": "10+ years",
+       "text": "Modeling, investment, strategy & executive training"
+      },
+      {
+       "title": "15+ organizations",
+       "text": "Banking, FMCG, telecom, logistics & tech"
+      },
+      {
+       "title": "Finance · Strategy · AI",
+       "text": "Connects tools to real business decisions"
+      },
+      {
+       "title": "MBA · Investment & Finance",
+       "text": "AAST — academic depth behind the practice"
+      }
      ],
      "credentials": [
       "FPWMP® · CFI",
@@ -489,10 +501,22 @@ window.MUSTANER_COPY = {
      "lead": "Strategy and Public Policy Leader, Corporate Trainer, and Learning Consultant with 20+ years at Vodafone Egypt and 10+ years of corporate training and facilitation.",
      "body": "Public Policy Senior Manager at Vodafone Egypt, with prior leadership in Commercial Planning & Strategy and Planning & Business Development — hands-on experience building and executing strategy inside a multinational.",
      "highlights": [
-      "20+ years at Vodafone",
-      "10+ years training",
-      "Public Policy Senior Manager",
-      "97% learner satisfaction"
+      {
+       "title": "20+ years · Vodafone",
+       "text": "Strategy built and run inside a multinational"
+      },
+      {
+       "title": "10+ years training",
+       "text": "Corporate facilitation with live business cases"
+      },
+      {
+       "title": "Public Policy Senior Manager",
+       "text": "Commercial planning, BD & stakeholder work"
+      },
+      {
+       "title": "97% satisfaction",
+       "text": "Storytelling for Influence programme score"
+      }
      ],
      "credentials": [
       "Certified Trainer · ESLSCA",
@@ -679,7 +703,7 @@ window.MUSTANER_COPY = {
    },
   "form": {
       "title": "Apply for a seat",
-      "sub": "We’ll reply on WhatsApp.",
+      "sub": "Fill in your details, then send them on WhatsApp.",
       "f_name": "Full name",
       "f_job": "Job title",
       "f_company": "Company",
@@ -695,7 +719,7 @@ window.MUSTANER_COPY = {
       "error_required": "Please fill in the required fields.",
       "error_email": "Enter a valid email, or leave it blank.",
       "error_phone": "Enter a valid phone number.",
-      "wa_intro": "Hello Mustaner, I would like a seat on Strategic Thinking for Growth."
+      "wa_intro": "Hello Mustaner, I would like to apply for a seat on Strategic Thinking for Growth (Oct 12 cohort)."
    },
   "testimonials": [
    {
@@ -783,7 +807,7 @@ window.MUSTANER_COPY = {
     },
     {
      "label": "المكان",
-     "value": "كابيتالايز ذا ديستريكت فيل، القاهرة الجديدة"
+     "value": "كابيتالايز · القاهرة الجديدة"
     },
     {
      "label": "الاستثمار",
@@ -1199,10 +1223,22 @@ window.MUSTANER_COPY = {
      "lead": "مؤسس مُستنير، ومدرب مالية معتمد، وخبير تقنيات أعمال بخبرة تزيد عن 10 سنوات في النمذجة المالية وتحليل الاستثمار واستراتيجية الأعمال والتكنولوجيا والتدريب التنفيذي.",
      "body": "عمل مع أكثر من 15 مؤسسة رائدة في البنوك والسلع الاستهلاكية والاتصالات واللوجستيات والتقنية، منها فودافون وطلبات وجهينة ومصرف الراجحي وإي إف جي هيرميس والبنك العربي الأفريقي الدولي.",
      "highlights": [
-      "خبرة أكثر من 10 سنوات",
-      "أكثر من 15 مؤسسة",
-      "مالية · استراتيجية · ذكاء اصطناعي",
-      "ماجستير استثمار وتمويل"
+      {
+       "title": "أكثر من 10 سنوات",
+       "text": "نمذجة مالية واستثمار واستراتيجية وتدريب تنفيذي"
+      },
+      {
+       "title": "أكثر من 15 مؤسسة",
+       "text": "بنوك وسلع واتصالات ولوجستيات وتقنية"
+      },
+      {
+       "title": "مالية · استراتيجية · ذكاء اصطناعي",
+       "text": "يربط الأدوات بقرارات أعمال حقيقية"
+      },
+      {
+       "title": "ماجستير استثمار وتمويل",
+       "text": "الأكاديمية العربية — عمق أكاديمي مع التطبيق"
+      }
      ],
      "credentials": [
       "FPWMP® · CFI",
@@ -1223,10 +1259,22 @@ window.MUSTANER_COPY = {
      "lead": "قائد في الاستراتيجية والسياسات العامة، ومدرب مؤسسي، ومستشار تعلّم بخبرة تزيد عن 20 عامًا في فودافون مصر وأكثر من 10 سنوات في التدريب والتيسير المؤسسي.",
      "body": "يشغل منصب مدير أول للسياسات العامة في فودافون مصر، بعد أدوار قيادية في التخطيط التجاري والاستراتيجي وتطوير الأعمال — بخبرة عملية في بناء الاستراتيجية وتنفيذها داخل شركة متعددة الجنسيات.",
      "highlights": [
-      "أكثر من 20 سنة في فودافون",
-      "أكثر من 10 سنوات تدريب",
-      "مدير أول سياسات عامة",
-      "رضا متعلمين 97%"
+      {
+       "title": "أكثر من 20 سنة · فودافون",
+       "text": "استراتيجية تُبنى وتُنفَّذ داخل شركة متعددة الجنسيات"
+      },
+      {
+       "title": "أكثر من 10 سنوات تدريب",
+       "text": "تيسير مؤسسي بحالات أعمال حقيقية"
+      },
+      {
+       "title": "مدير أول سياسات عامة",
+       "text": "تخطيط تجاري وتطوير أعمال وأصحاب مصلحة"
+      },
+      {
+       "title": "رضا 97%",
+       "text": "نتيجة برنامج Storytelling for Influence"
+      }
      ],
      "credentials": [
       "مدرب معتمد · ESLSCA",
@@ -1413,7 +1461,7 @@ window.MUSTANER_COPY = {
    },
   "form": {
       "title": "قدّم على مقعد",
-      "sub": "هنرد عليك على واتساب.",
+      "sub": "املأ بياناتك، ثم ابعتها على واتساب.",
       "f_name": "الاسم بالكامل",
       "f_job": "المسمى الوظيفي",
       "f_company": "الشركة",
@@ -1429,7 +1477,7 @@ window.MUSTANER_COPY = {
       "error_required": "من فضلك املأ الخانات المطلوبة.",
       "error_email": "اكتب إيميل صحيح، أو سيبه فاضي.",
       "error_phone": "اكتب رقم موبايل صحيح.",
-      "wa_intro": "مرحبًا مُسْتَنِير، عايز أحجز مكان في كورس Strategic Thinking for Growth."
+      "wa_intro": "مرحبًا مُسْتَنِير، أريد التقديم على مقعد في برنامج التفكير الاستراتيجي للنمو (دفعة 12 أكتوبر)."
    },
   "testimonials": [
    {

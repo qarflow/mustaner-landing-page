@@ -22,6 +22,11 @@
 .quickbar-data .data-cell { flex: 0 1 auto; min-inline-size: 0; }
 .quickbar-data .data-value { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-inline-size: 16ch; }
 .quickbar-data .data-cell:first-child .data-value { max-inline-size: 14ch; }
+.quickbar-data a.location-link {
+  max-inline-size: none;
+  overflow: visible;
+  text-overflow: clip;
+}
 .quickbar-data .data-cell:last-child .data-value,
 .quickbar-price { max-inline-size: none; }
 .quickbar-price { display: flex; align-items: baseline; gap: var(--sp-2); }
