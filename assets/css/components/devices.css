@@ -164,6 +164,39 @@
 .btn-on-plate { background: #fff; color: #00140E; box-shadow: 0 18px 50px -24px rgba(0,0,0,.9); }
 .btn-on-plate.btn-ghost { background: rgba(0,0,0,.24); color: #fff; border-color: rgba(255,255,255,.45); }
 
+/* WhatsApp Apply CTAs — icon on the trailing side (right EN / left AR) */
+.btn > .fa-whatsapp {
+  order: 2;
+  font-size: 1.15em;
+  line-height: 1;
+  color: #25D366;
+  transition: transform var(--t-1) var(--e-out), color var(--t-1) var(--e-out);
+}
+.btn-whatsapp > .fa-whatsapp,
+.btn-on-plate.btn-ghost > .fa-whatsapp {
+  color: inherit;
+}
+.btn-hero-ghost > .fa-whatsapp {
+  color: #25D366;
+}
+[dir="ltr"] .btn:hover > .fa-whatsapp,
+[dir="ltr"] .btn:focus-visible > .fa-whatsapp {
+  transform: translateX(3px);
+}
+[dir="rtl"] .btn:hover > .fa-whatsapp,
+[dir="rtl"] .btn:focus-visible > .fa-whatsapp {
+  transform: translateX(-3px);
+}
+.btn:hover > .fa-whatsapp { color: #1ebe57; }
+.btn-whatsapp:hover > .fa-whatsapp,
+.btn-on-plate.btn-ghost:hover > .fa-whatsapp,
+.btn-hero-ghost:hover > .fa-whatsapp {
+  color: inherit;
+}
+.btn-hero-ghost:hover > .fa-whatsapp {
+  color: #2fe074;
+}
+
 .cta-row { display: flex; flex-wrap: wrap; gap: var(--sp-3); align-items: center; }
 
 .chip {

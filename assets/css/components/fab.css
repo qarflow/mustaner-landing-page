@@ -5,7 +5,7 @@
 
 .float-dock {
   position: fixed;
-  right: var(--sp-5);
+  right: max(var(--sp-5), env(safe-area-inset-right));
   left: auto;
   inset-block-end: var(--sp-5);
   z-index: var(--z-fab);
@@ -14,14 +14,14 @@
   align-items: flex-end;
   gap: var(--sp-3);
   pointer-events: none;
+  /* Dock chrome stays LTR so FAB/bubble stack on physical right in AR */
+  direction: ltr;
 }
 .float-dock > * { pointer-events: auto; }
 
-/* Keep identical placement in Arabic — do not flip to the left */
 [dir="rtl"] .float-dock {
-  right: var(--sp-5);
+  right: max(var(--sp-5), env(safe-area-inset-right));
   left: auto;
-  align-items: flex-end;
 }
 
 .scroll-top {
@@ -74,10 +74,6 @@
   gap: var(--sp-3);
 }
 
-[dir="rtl"] .wa-dock {
-  align-items: flex-end;
-}
-
 .wa-bubble {
   position: relative;
   max-inline-size: min(220px, calc(100vw - 5.5rem));
@@ -92,8 +88,9 @@
   text-align: start;
 }
 [dir="rtl"] .wa-bubble {
+  direction: rtl;
   transform-origin: bottom right;
-  padding: 0.7rem 2rem 0.75rem 0.85rem;
+  padding: 0.7rem 0.85rem 0.75rem 2rem;
 }
 
 .wa-bubble[hidden] { display: none; }
@@ -101,19 +98,15 @@
 .wa-bubble::after {
   content: "";
   position: absolute;
-  right: 20px;
+  right: 23px;
   left: auto;
   inset-block-end: -6px;
   inline-size: 12px;
   block-size: 12px;
   background: var(--surface-2);
-  border-inline-end: 1px solid var(--line-2);
-  border-block-end: 1px solid var(--line-2);
+  border-right: 1px solid var(--line-2);
+  border-bottom: 1px solid var(--line-2);
   transform: rotate(45deg);
-}
-[dir="rtl"] .wa-bubble::after {
-  right: 20px;
-  left: auto;
 }
 
 .wa-bubble-text {
@@ -135,8 +128,8 @@
 
 .wa-bubble-close {
   position: absolute;
-  inset-block-start: 4px;
-  inset-inline-end: 6px;
+  top: 4px;
+  right: 6px;
   inline-size: 26px;
   block-size: 26px;
   display: grid;
@@ -145,6 +138,10 @@
   font-size: 1.05rem;
   line-height: 1;
   border-radius: var(--r-pill);
+}
+[dir="rtl"] .wa-bubble-close {
+  right: auto;
+  left: 6px;
 }
 .wa-bubble-close:hover { color: var(--ink); background: var(--surface-3); }
 
@@ -186,7 +183,7 @@
   to { opacity: 1; transform: none; }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1100px) {
   .float-dock {
     inset-block-end: calc(var(--quickbar-h-m) + var(--sp-4) + env(safe-area-inset-bottom));
   }

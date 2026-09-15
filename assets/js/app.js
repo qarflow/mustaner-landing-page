@@ -480,11 +480,14 @@
 
   function syncWhatsAppLinks() {
     var dict = COPY[current] || COPY.en;
-    var prefill = (dict.ui && dict.ui.whatsapp_prefill) ||
+    var askPrefill = (dict.ui && dict.ui.whatsapp_prefill) ||
       'Hello Mustaner, I have a question about Strategic Thinking for Growth.';
-    var url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(prefill);
-    $$('.js-wa-link, .js-wa-hero').forEach(function (el) {
-      el.setAttribute('href', url);
+    var applyPrefill = (dict.ui && dict.ui.whatsapp_apply_prefill) ||
+      'Hello Mustaner, I want to apply for Strategic Thinking for Growth (Oct 12 cohort).';
+    var askUrl = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(askPrefill);
+    var applyUrl = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(applyPrefill);
+    $$('.js-wa-link').forEach(function (el) {
+      el.setAttribute('href', el.classList.contains('js-wa-apply') ? applyUrl : askUrl);
     });
   }
 

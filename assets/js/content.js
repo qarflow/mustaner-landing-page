@@ -5,29 +5,29 @@ window.MUSTANER_COPY = {
  "en": {
   "meta": {
    "page_title": "Strategic Thinking for Growth | Mustaner",
-   "meta_description": "A 40-hour executive programme in New Cairo. Ten sessions across the full strategic cycle, four of them applied AI. Starts Sep 28, 2026. Early Bird 12,000 EGP.",
+   "meta_description": "A 40-hour executive programme at Kapitalize The District Vill, New Cairo. Ten sessions across the full strategic cycle, four of them applied AI. Starts Oct 12, 2026. Early Bird 12,000 EGP.",
    "og_title": "Strategic Thinking for Growth — Mustaner",
-   "og_description": "Ten in-person sessions, 40 hours, New Cairo. Classic strategy toolkits plus four sessions of applied AI. Starts Sep 28, 2026."
+   "og_description": "Ten in-person sessions, 40 hours, Kapitalize The District Vill, New Cairo. Classic strategy toolkits plus four sessions of applied AI. Starts Oct 12, 2026."
   },
   "hero": {
       "brand": "Mustaner",
-      "eyebrow": "NEW CAIRO · SEP 28",
+      "eyebrow": "NEW CAIRO · OCT 12",
       "h1": "Build the strategy your business will run",
       "h1_plain": "Build the strategy",
       "h1_mark": "your business will run",
-      "subhead": "40 hours. 10 live sessions in New Cairo. Classic strategy frameworks plus four applied-AI sessions — on your company, not a case study.",
+      "subhead": "40 hours. 10 live sessions at Kapitalize The District Vill, New Cairo. Classic strategy frameworks plus four applied-AI sessions — on your company, not a case study.",
       "offer_price": "12,000 EGP",
       "offer_was": "15,000",
       "offer_tag": "Early Bird",
-      "offer_line": "Seats limited · starts Sep 28",
+      "offer_line": "Seats limited · starts Oct 12",
       "proof_chips": [
          "40 hours · 10 sessions",
          "4 AI sessions",
-         "In person · New Cairo",
-         "Starts Sep 28"
+         "In person · Kapitalize The District Vill",
+         "Starts Oct 12"
       ],
-      "cta_primary": "Reserve Your Seat",
-      "cta_secondary": "Apply Now",
+      "cta_primary": "Pay Now",
+      "cta_secondary": "Apply via WhatsApp",
       "cta_whatsapp": "Ask on WhatsApp",
       "cta_tertiary": "Download the Brochure",
       "trust_line": "Talk before you pay — replies usually within hours.",
@@ -37,7 +37,7 @@ window.MUSTANER_COPY = {
    "cells": [
     {
      "label": "Next cohort",
-     "value": "Sep 28, 2026"
+     "value": "Oct 12, 2026"
     },
     {
      "label": "Duration",
@@ -49,7 +49,7 @@ window.MUSTANER_COPY = {
     },
     {
      "label": "Location",
-     "value": "New Cairo, Egypt"
+     "value": "Kapitalize The District Vill, New Cairo"
     },
     {
      "label": "Investment",
@@ -67,6 +67,10 @@ window.MUSTANER_COPY = {
     {
      "id": "curriculum",
      "label": "Curriculum"
+    },
+    {
+     "id": "faculty",
+     "label": "Trainers"
     },
     {
      "id": "schedule",
@@ -90,7 +94,8 @@ window.MUSTANER_COPY = {
    "whatsapp_label": "Chat on WhatsApp",
    "whatsapp_bubble": "Have a question? Chat with us.",
    "whatsapp_cta": "Chat now",
-   "whatsapp_prefill": "Hello Mustaner, I have a question about Strategic Thinking for Growth (Sep 28 cohort).",
+   "whatsapp_prefill": "Hello Mustaner, I have a question about Strategic Thinking for Growth (Oct 12 cohort).",
+   "whatsapp_apply_prefill": "Hello Mustaner, I want to apply for Strategic Thinking for Growth (Oct 12 cohort).",
    "play_video": "Play the programme video",
    "close": "Close",
    "skip_link": "Skip to main content"
@@ -129,7 +134,7 @@ window.MUSTANER_COPY = {
       "problem_label": "The problem",
       "problem": "Growing companies in Egypt rarely lack ambition. They lack a strategy that holds: decisions made on instinct, a plan written in January that no one recognises by March, and teams that are busy without moving in the same direction.",
       "answer_label": "What the programme does",
-      "answer": "40 hours, 10 sessions, in one room in New Cairo. You diagnose your market, choose a strategy you can defend, build the execution layer underneath it, then amplify the same cycle with applied AI.",
+      "answer": "40 hours, 10 sessions, in one room at Kapitalize The District Vill, New Cairo. You diagnose your market, choose a strategy you can defend, build the execution layer underneath it, then amplify the same cycle with applied AI.",
       "stats": [
          "Hours in the room",
          "Live sessions",
@@ -139,7 +144,7 @@ window.MUSTANER_COPY = {
       "cta_kicker": "Ready to put a real business through the cycle?",
       "cta_note": "Early Bird seats are limited. Start with the curriculum, or message us to reserve yours.",
       "cta_primary": "See the curriculum",
-      "cta_secondary": "Apply Now",
+      "cta_secondary": "Apply via WhatsApp",
       "pillars": [
          {
             "title": "The Full Strategic Cycle",
@@ -245,7 +250,7 @@ window.MUSTANER_COPY = {
          "Sessions 7–10 · AI"
       ],
       "cta_kicker": "Ready to work your business through all four phases?",
-      "cta_note": "Early Bird seats are limited. Reserve now, or message the team on WhatsApp.",
+      "cta_note": "Early Bird seats are limited. Pay Now to secure your seat, or Apply Now on WhatsApp.",
       "sessions": [
          {
             "number": "01",
@@ -341,7 +346,7 @@ window.MUSTANER_COPY = {
          {
             "number": "10",
             "phase": "Phase 04",
-            "title": "AI Execution and Strategic Control",
+            "title": "AI Execution & Strategic Control",
             "outcome": "Leave with AI-backed OKRs, scorecards and dashboards your team can run.",
             "points": [
                "AI-driven OKRs, KPIs and Balanced Scorecards",
@@ -372,14 +377,14 @@ window.MUSTANER_COPY = {
    "headline": "Four phases, in the order real decisions happen",
    "headline_plain": "Four phases, in the order real",
    "headline_mark": "decisions happen",
-   "sub": "You bring a business into the room on Sep 28 and work it through every phase. Each one ends with something in your hands, not in your notes.",
+   "sub": "You bring a business into the room on Oct 12 and work it through every phase. Each one ends with something in your hands, not in your notes.",
    "phases": [
     {
      "number": "01",
      "name": "Market Research and Diagnosis",
      "verb": "Diagnose",
      "sessions": "Sessions 1-2",
-     "dates": "Sep 28 & Sep 30, 2026",
+     "dates": "Oct 12 & Oct 14, 2026",
      "body": "You leave holding a written read of your market and your position in it — PESTEL, Porter's Five Forces and a competitor map applied to your own company."
     },
     {
@@ -387,7 +392,7 @@ window.MUSTANER_COPY = {
      "name": "Strategy Selection",
      "verb": "Decide",
      "sessions": "Sessions 3-4",
-     "dates": "Oct 5 & Oct 7, 2026",
+     "dates": "Oct 19 & Oct 21, 2026",
      "body": "You leave holding an honest inventory of what your company is genuinely good at, a chosen growth strategy, and a competitive advantage you can state in one sentence."
     },
     {
@@ -395,7 +400,7 @@ window.MUSTANER_COPY = {
      "name": "Strategy Implementation",
      "verb": "Execute",
      "sessions": "Sessions 5-6",
-     "dates": "Oct 12 & Oct 14, 2026",
+     "dates": "Oct 26 & Oct 28, 2026",
      "body": "You leave holding that strategy broken into OKRs, owners and resource decisions, with the KPIs and Balanced Scorecard that tell you whether it is working."
     },
     {
@@ -403,7 +408,7 @@ window.MUSTANER_COPY = {
      "name": "Strategy Using AI",
      "verb": "Amplify",
      "sessions": "Sessions 7-10",
-     "dates": "Oct 19, 21, 26 & 28, 2026",
+     "dates": "Nov 2, 4, 9 & 11, 2026",
      "body": "You leave holding a tested AI workflow for every stage of the cycle — research, analysis, scenario planning and performance monitoring — built during four dedicated sessions."
     }
    ]
@@ -445,6 +450,61 @@ window.MUSTANER_COPY = {
    "sub": "Unedited feedback from participants in previous rounds.",
    "source_note": "Unedited participant feedback, quoted from the programme group chats."
   },
+  "faculty": {
+   "eyebrow": "Faculty",
+   "headline": "Meet the trainers",
+   "headline_plain": "Meet the",
+   "headline_mark": "trainers",
+   "sub": "Practitioners who run strategy inside real organizations — not a slide-only classroom.",
+   "credentials_label": "International credentials",
+   "highlights_label": "Credentials & highlights",
+   "trainers": [
+    {
+     "name": "Dr. Fouad Houssien",
+     "role": "Founder of Mustaner · Certified Finance Trainer · Business Tech Expert",
+     "lead": "Founder of Mustaner, Certified Finance Trainer, and Business Tech Expert with 10+ years across financial modeling, investment analysis, business strategy, technology, and executive training.",
+     "body": "Worked with 15+ leading organizations across banking, FMCG, telecom, logistics, and tech — including Vodafone, Talabat, Juhayna, Al Rajhi Bank, EFG Hermes, and Arab African International Bank.",
+     "highlights": [
+      "10+ years experience",
+      "15+ organizations",
+      "Finance · Strategy · AI",
+      "MBA · Investment & Finance"
+     ],
+     "credentials": [
+      "FPWMP® · CFI",
+      "CMSA® · CFI",
+      "FMVA® · CFI",
+      "CBAP® · IIBA",
+      "CIPM® · CFA Institute",
+      "CFA Institute Member",
+      "PMP® · PMI",
+      "Microsoft Data Analyst",
+      "Certified Trainer · ESLSCA"
+     ],
+     "closing": "Turns complex finance and strategy into practical systems and tech-enabled decisions that drive measurable growth."
+    },
+    {
+     "name": "Ahmed ElMaghraby",
+     "role": "Strategy & Public Policy Leader · Corporate Trainer · Learning Consultant",
+     "lead": "Strategy and Public Policy Leader, Corporate Trainer, and Learning Consultant with 20+ years at Vodafone Egypt and 10+ years of corporate training and facilitation.",
+     "body": "Public Policy Senior Manager at Vodafone Egypt, with prior leadership in Commercial Planning & Strategy and Planning & Business Development — hands-on experience building and executing strategy inside a multinational.",
+     "highlights": [
+      "20+ years at Vodafone",
+      "10+ years training",
+      "Public Policy Senior Manager",
+      "97% learner satisfaction"
+     ],
+     "credentials": [
+      "Certified Trainer · ESLSCA",
+      "TOT · ESLSCA",
+      "20+ yrs Vodafone Egypt",
+      "10+ yrs Corporate Training",
+      "97% · Storytelling for Influence"
+     ],
+     "closing": "Translates complex strategy and regulatory challenges into practical learning that strengthens decisions, communication, and execution."
+    }
+   ]
+  },
   "clients": {
    "eyebrow": "Clients",
    "headline": "Teams that trained with Mustaner",
@@ -459,15 +519,15 @@ window.MUSTANER_COPY = {
    "headline": "Ten sessions. Four phases. Five weeks.",
    "headline_plain": "Ten sessions. Four phases.",
    "headline_mark": "Five weeks.",
-   "sub": "Two evenings a week, four hours each, from Sep 28 to Oct 28, 2026. The final four sessions are applied AI for strategy.",
+   "sub": "Two evenings a week, four hours each, from Oct 12 to Nov 11, 2026. The final four sessions are applied AI for strategy.",
    "summary_cells": [
     {
      "label": "Starts",
-     "value": "Sep 28, 2026"
+     "value": "Oct 12, 2026"
     },
     {
      "label": "Ends",
-     "value": "Oct 28, 2026"
+     "value": "Nov 11, 2026"
     },
     {
      "label": "Days",
@@ -483,14 +543,15 @@ window.MUSTANER_COPY = {
     },
     {
      "label": "Format",
-     "value": "Offline · New Cairo"
+     "value": "Offline · Kapitalize The District Vill"
     }
    ],
    "col_session": "Sessions",
    "col_phase": "Phase",
    "col_date": "Dates",
    "col_time": "Time",
-   "note": "All ten sessions are in person in New Cairo. There is no online attendance."
+   "note": "All ten sessions are in person at Kapitalize The District Vill, New Cairo. There is no online attendance.",
+   "map_label": "Open venue on Google Maps"
   },
   "fees": {
       "eyebrow": "Fees",
@@ -512,7 +573,7 @@ window.MUSTANER_COPY = {
       "offer_note": "Same price on every payment method. Seats release when Early Bird ends.",
       "includes_label": "What the fee covers",
       "includes": [
-         "40 hours of in-person instruction across 10 sessions in New Cairo.",
+         "40 hours of in-person instruction across 10 sessions at Kapitalize The District Vill, New Cairo.",
          "The full strategic cycle in 4 phases: market diagnosis, strategy selection, implementation, and strategy using AI.",
          "4 sessions of applied AI for strategy — market intelligence, analysis, formulation, and execution control.",
          "The classic strategy toolkit used across the ten sessions — listed in the curriculum.",
@@ -523,7 +584,7 @@ window.MUSTANER_COPY = {
       "payment_methods": [
          {
             "name": "Fawaterk",
-            "detail": "Secure online card payment. Book Now opens the Fawaterk payment link directly."
+            "detail": "Secure online card payment. Pay Now opens the Fawaterk course payment page."
          },
          {
             "name": "Bank transfer",
@@ -536,8 +597,8 @@ window.MUSTANER_COPY = {
             "blurb": "Send to the number below, then WhatsApp the receipt to lock your seat."
          }
       ],
-      "cta_primary": "Book Now",
-      "cta_secondary": "Apply Now",
+      "cta_primary": "Pay Now",
+      "cta_secondary": "Apply via WhatsApp",
       "payment_intro": "Pick the route that fits — same Early Bird fee on every method.",
       "pay_bank": "Bank",
       "pay_account": "Account",
@@ -563,7 +624,7 @@ window.MUSTANER_COPY = {
     },
     {
      "q": "What if I miss a session?",
-     "a": "The 10 dates are fixed and published: Sep 28, Sep 30, Oct 5, Oct 7, Oct 12, Oct 14, Oct 19, Oct 21, Oct 26 and Oct 28, every Monday and Wednesday from 6:00 PM to 10:00 PM. The sessions build in sequence across 4 phases, so missing one costs you. No make-up policy is published — if you already know a date is difficult, raise it on WhatsApp before you pay rather than after."
+     "a": "The 10 dates are fixed and published: Oct 12, Oct 14, Oct 19, Oct 21, Oct 26, Oct 28, Nov 2, Nov 4, Nov 9 and Nov 11, every Monday and Wednesday from 6:00 PM to 10:00 PM. The sessions build in sequence across 4 phases, so missing one costs you. No make-up policy is published — if you already know a date is difficult, raise it on WhatsApp before you pay rather than after."
     },
     {
      "q": "Is this theory or applied work?",
@@ -583,28 +644,28 @@ window.MUSTANER_COPY = {
     },
     {
      "q": "How do I know it fits my situation?",
-     "a": "It fits if you are carrying an unclear strategy, weak profitability, missing systems or slow decision-making, and you want a structured way through rather than another framework list. To test that against your specific case first, use Apply Now or message +20 109 271 8547 and describe the challenge before you commit."
+     "a": "It fits if you are carrying an unclear strategy, weak profitability, missing systems or slow decision-making, and you want a structured way through rather than another framework list. To test that against your specific case first, use Apply Now on WhatsApp or message +20 109 271 8547 and describe the challenge before you commit."
     }
    ]
   },
   "finalcta": {
    "eyebrow": "Next intake",
-   "headline": "The room fills before Sep 28",
+   "headline": "The room fills before Oct 12",
    "headline_plain": "The room fills before",
-   "headline_mark": "Sep 28",
-   "sub": "Seats are limited by the format — this is in-person work, not a webinar. Book at the Early Bird fee, or send your details and the team will come back to you.",
+   "headline_mark": "Oct 12",
+   "sub": "Seats are limited by the format — this is in-person work, not a webinar. Pay at the Early Bird fee, or apply on WhatsApp and the team will come back to you.",
    "badge": "Early Bird · Next intake · seats limited",
    "visual_kicker": "In the room — not on a webinar",
    "price_label": "Early Bird",
    "meta": [
       "10 sessions · 40 hours",
       "Mon & Wed · 6–10 PM",
-      "New Cairo · in person",
-      "Sep 28 – Oct 28, 2026"
+      "Kapitalize The District Vill · in person",
+      "Oct 12 – Nov 11, 2026"
    ],
-   "fact_line": "10 sessions · 40 hours · Monday and Wednesday, 6:00 PM to 10:00 PM · New Cairo, in person · Sep 28 to Oct 28, 2026 · 12,000 EGP Early Bird instead of 15,000 EGP.",
-   "cta_primary": "Book Now",
-   "cta_secondary": "Apply Now",
+   "fact_line": "10 sessions · 40 hours · Monday and Wednesday, 6:00 PM to 10:00 PM · Kapitalize The District Vill, New Cairo · Oct 12 to Nov 11, 2026 · 12,000 EGP Early Bird instead of 15,000 EGP.",
+   "cta_primary": "Pay Now",
+   "cta_secondary": "Apply via WhatsApp",
    "cta_tertiary": "Download Brochure"
   },
   "footer": {
@@ -678,29 +739,29 @@ window.MUSTANER_COPY = {
  "ar": {
   "meta": {
    "page_title": "التفكير الاستراتيجي للنمو | مُستنير",
-   "meta_description": "برنامج تنفيذي من 40 ساعة في القاهرة الجديدة. عشر جلسات تغطي الدورة الاستراتيجية كاملة، أربع منها AI تطبيقي. يبدأ 28 سبتمبر 2026. الحجز المبكر 12,000 جنيه.",
+   "meta_description": "برنامج تنفيذي من 40 ساعة في كابيتالايز ذا ديستريكت فيل، القاهرة الجديدة. عشر جلسات تغطي الدورة الاستراتيجية كاملة، أربع منها AI تطبيقي. يبدأ 12 أكتوبر 2026. الحجز المبكر 12,000 جنيه.",
    "og_title": "التفكير الاستراتيجي للنمو — مُستنير",
-   "og_description": "عشر جلسات حضورية، 40 ساعة، القاهرة الجديدة. أدوات الاستراتيجية المعتمدة عالميًا مع أربع جلسات AI تطبيقي. يبدأ 28 سبتمبر 2026."
+   "og_description": "عشر جلسات حضورية، 40 ساعة، كابيتالايز ذا ديستريكت فيل. أدوات الاستراتيجية المعتمدة عالميًا مع أربع جلسات AI تطبيقي. يبدأ 12 أكتوبر 2026."
   },
   "hero": {
       "brand": "مُسْتَنِير",
-      "eyebrow": "القاهرة الجديدة · ٢٨ سبتمبر",
+      "eyebrow": "القاهرة الجديدة · ١٢ أكتوبر",
       "h1": "ابنِ الاستراتيجية اللي شغلك هيشتغل بيها",
       "h1_plain": "ابنِ الاستراتيجية",
       "h1_mark": "اللي شغلك هيشتغل بيها",
-      "subhead": "٤٠ ساعة. ١٠ جلسات حضورية في القاهرة الجديدة. أدوات استراتيجية كلاسيكية مع أربع جلسات ذكاء اصطناعي تطبيقي — على شركتك أنت، مش على دراسة حالة.",
+      "subhead": "٤٠ ساعة. ١٠ جلسات حضورية في كابيتالايز ذا ديستريكت فيل، القاهرة الجديدة. أدوات استراتيجية كلاسيكية مع أربع جلسات ذكاء اصطناعي تطبيقي — على شركتك أنت، مش على دراسة حالة.",
       "offer_price": "١٢,٠٠٠ جنيه",
       "offer_was": "١٥,٠٠٠",
       "offer_tag": "الحجز المبكر",
-      "offer_line": "المقاعد محدودة · يبدأ ٢٨ سبتمبر",
+      "offer_line": "المقاعد محدودة · يبدأ ١٢ أكتوبر",
       "proof_chips": [
          "٤٠ ساعة · ١٠ جلسات",
          "٤ جلسات ذكاء اصطناعي",
-         "حضوري · القاهرة الجديدة",
-         "يبدأ ٢٨ سبتمبر"
+         "حضوري · كابيتالايز ذا ديستريكت فيل",
+         "يبدأ ١٢ أكتوبر"
       ],
-      "cta_primary": "احجز مقعدك",
-      "cta_secondary": "قدّم الآن",
+      "cta_primary": "ادفع الآن",
+      "cta_secondary": "قدّم عبر واتساب",
       "cta_whatsapp": "اسأل على واتساب",
       "cta_tertiary": "حمّل البروشور",
       "trust_line": "كلم الفريق قبل الدفع — الرد عادة خلال ساعات.",
@@ -710,7 +771,7 @@ window.MUSTANER_COPY = {
    "cells": [
     {
      "label": "الدفعة القادمة",
-     "value": "28 سبتمبر 2026"
+     "value": "12 أكتوبر 2026"
     },
     {
      "label": "المدة",
@@ -722,7 +783,7 @@ window.MUSTANER_COPY = {
     },
     {
      "label": "المكان",
-     "value": "القاهرة الجديدة، التجمع"
+     "value": "كابيتالايز ذا ديستريكت فيل، القاهرة الجديدة"
     },
     {
      "label": "الاستثمار",
@@ -740,6 +801,10 @@ window.MUSTANER_COPY = {
     {
      "id": "curriculum",
      "label": "المحتوى"
+    },
+    {
+     "id": "faculty",
+     "label": "المدربون"
     },
     {
      "id": "schedule",
@@ -763,7 +828,8 @@ window.MUSTANER_COPY = {
    "whatsapp_label": "تواصل عبر واتساب",
    "whatsapp_bubble": "عندك سؤال؟ راسلنا الآن.",
    "whatsapp_cta": "ابدأ المحادثة",
-   "whatsapp_prefill": "مرحبًا مُستنير، عندي سؤال عن برنامج التفكير الاستراتيجي للنمو (دفعة 28 سبتمبر).",
+   "whatsapp_prefill": "مرحبًا مُستنير، عندي سؤال عن برنامج التفكير الاستراتيجي للنمو (دفعة 12 أكتوبر).",
+   "whatsapp_apply_prefill": "مرحبًا مُستنير، أريد التقديم على برنامج التفكير الاستراتيجي للنمو (دفعة 12 أكتوبر).",
    "play_video": "شغّل فيديو البرنامج",
    "close": "إغلاق",
    "skip_link": "تخطَّ إلى المحتوى الرئيسي"
@@ -802,7 +868,7 @@ window.MUSTANER_COPY = {
       "problem_label": "المشكلة",
       "problem": "الشركات النامية في مصر لا ينقصها الطموح، بل تنقصها استراتيجية تصمد: قرارات تُتخذ بالحدس، وخطة تُكتب في يناير لا يتذكرها أحد في مارس، وفرق مشغولة لكنها لا تتحرك في اتجاه واحد.",
       "answer_label": "ما الذي يفعله البرنامج",
-      "answer": "٤٠ ساعة، ١٠ جلسات، في قاعة واحدة بالقاهرة الجديدة. تشخّص سوقك، تختار استراتيجية تستطيع الدفاع عنها، تبني تحتها طبقة التنفيذ، ثم تعيد الدورة نفسها بذكاء اصطناعي تطبيقي.",
+      "answer": "٤٠ ساعة، ١٠ جلسات، في قاعة واحدة في كابيتالايز ذا ديستريكت فيل، القاهرة الجديدة. تشخّص سوقك، تختار استراتيجية تستطيع الدفاع عنها، تبني تحتها طبقة التنفيذ، ثم تعيد الدورة نفسها بذكاء اصطناعي تطبيقي.",
       "stats": [
          "ساعة في القاعة",
          "جلسة حضورية",
@@ -810,9 +876,9 @@ window.MUSTANER_COPY = {
          "نتائج تخرج بها"
       ],
       "cta_kicker": "جاهز تمرّر شركة حقيقية عبر الدورة؟",
-      "cta_note": "مقاعد الحجز المبكر محدودة. ابدأ بالمنهج، أو راسلنا لحجز مقعدك.",
+      "cta_note": "مقاعد الحجز المبكر محدودة. ابدأ بالمنهج، أو ادفع الآن، أو قدّم الآن على واتساب.",
       "cta_primary": "شاهد المنهج",
-      "cta_secondary": "قدّم الآن",
+      "cta_secondary": "قدّم عبر واتساب",
       "pillars": [
          {
             "title": "الدورة الاستراتيجية كاملة",
@@ -918,7 +984,7 @@ window.MUSTANER_COPY = {
          "الجلسات 7–10 · AI"
       ],
       "cta_kicker": "جاهز تشتغل على شغلك عبر المراحل الأربع؟",
-      "cta_note": "مقاعد الحجز المبكر محدودة. احجز الآن، أو راسل الفريق على واتساب.",
+      "cta_note": "مقاعد الحجز المبكر محدودة. ادفع الآن لتأكيد مقعدك، أو قدّم الآن على واتساب.",
       "sessions": [
          {
             "number": "01",
@@ -1045,14 +1111,14 @@ window.MUSTANER_COPY = {
    "headline": "أربع مراحل، بالترتيب الذي تُتخذ به القرارات فعلًا",
    "headline_plain": "أربع مراحل، بالترتيب الذي تُتخذ به",
    "headline_mark": "القرارات فعلًا",
-   "sub": "تدخل القاعة يوم 28 سبتمبر ومعك شركة حقيقية، وتمر بها عبر كل مرحلة. كل مرحلة تنتهي بشيء في يدك، لا في دفترك.",
+   "sub": "تدخل القاعة يوم 12 أكتوبر ومعك شركة حقيقية، وتمر بها عبر كل مرحلة. كل مرحلة تنتهي بشيء في يدك، لا في دفترك.",
    "phases": [
     {
      "number": "01",
      "name": "بحث السوق والتشخيص",
      "verb": "تشخيص",
      "sessions": "الجلسات 1-2",
-     "dates": "28 و30 سبتمبر 2026",
+     "dates": "12 و14 أكتوبر 2026",
      "body": "تخرج ومعك قراءة مكتوبة لسوقك وموقعك فيه — PESTEL وPorter's Five Forces وخريطة منافسين مطبّقة على شركتك أنت."
     },
     {
@@ -1060,7 +1126,7 @@ window.MUSTANER_COPY = {
      "name": "اختيار الاستراتيجية",
      "verb": "اختيار",
      "sessions": "الجلسات 3-4",
-     "dates": "5 و7 أكتوبر 2026",
+     "dates": "19 و21 أكتوبر 2026",
      "body": "تخرج ومعك جرد صادق لما تجيده شركتك فعلًا، واستراتيجية نمو مختارة، وميزة تنافسية تصوغها في جملة واحدة."
     },
     {
@@ -1068,7 +1134,7 @@ window.MUSTANER_COPY = {
      "name": "تنفيذ الاستراتيجية",
      "verb": "تنفيذ",
      "sessions": "الجلسات 5-6",
-     "dates": "12 و14 أكتوبر 2026",
+     "dates": "26 و28 أكتوبر 2026",
      "body": "تخرج ومعك الاستراتيجية مفكّكة إلى OKRs ومسؤولين وقرارات موارد، ومعها KPIs وBalanced Scorecard تخبرك إن كانت تعمل."
     },
     {
@@ -1076,7 +1142,7 @@ window.MUSTANER_COPY = {
      "name": "الاستراتيجية باستخدام AI",
      "verb": "مضاعفة",
      "sessions": "الجلسات 7-10",
-     "dates": "19 و21 و26 و28 أكتوبر 2026",
+     "dates": "2 و4 و9 و11 نوفمبر 2026",
      "body": "تخرج ومعك مسار عمل مجرَّب بـAI لكل مرحلة من الدورة — بحث وتحليل وتخطيط سيناريوهات ومتابعة أداء — بُني خلال أربع جلسات مخصصة."
     }
    ]
@@ -1118,6 +1184,61 @@ window.MUSTANER_COPY = {
    "sub": "آراء مشاركين من دورات سابقة كما وردت دون تعديل.",
    "source_note": "فيدباك حقيقي من المشاركين، منقول كما هو من جروبات البرنامج."
   },
+  "faculty": {
+   "eyebrow": "المدربون",
+   "headline": "تعرّف على المدربين",
+   "headline_plain": "تعرّف على",
+   "headline_mark": "المدربين",
+   "sub": "ممارسان يديران الاستراتيجية داخل مؤسسات حقيقية — وليس فصلًا يعتمد على الشرائح فقط.",
+   "credentials_label": "الشهادات الدولية",
+   "highlights_label": "الشهادات والنقاط البارزة",
+   "trainers": [
+    {
+     "name": "د. فؤاد حسين",
+     "role": "مؤسس مُستنير · مدرب مالية معتمد · خبير تقنيات الأعمال",
+     "lead": "مؤسس مُستنير، ومدرب مالية معتمد، وخبير تقنيات أعمال بخبرة تزيد عن 10 سنوات في النمذجة المالية وتحليل الاستثمار واستراتيجية الأعمال والتكنولوجيا والتدريب التنفيذي.",
+     "body": "عمل مع أكثر من 15 مؤسسة رائدة في البنوك والسلع الاستهلاكية والاتصالات واللوجستيات والتقنية، منها فودافون وطلبات وجهينة ومصرف الراجحي وإي إف جي هيرميس والبنك العربي الأفريقي الدولي.",
+     "highlights": [
+      "خبرة أكثر من 10 سنوات",
+      "أكثر من 15 مؤسسة",
+      "مالية · استراتيجية · ذكاء اصطناعي",
+      "ماجستير استثمار وتمويل"
+     ],
+     "credentials": [
+      "FPWMP® · CFI",
+      "CMSA® · CFI",
+      "FMVA® · CFI",
+      "CBAP® · IIBA",
+      "CIPM® · CFA Institute",
+      "عضو CFA Institute",
+      "PMP® · PMI",
+      "محلل بيانات Microsoft",
+      "مدرب معتمد · ESLSCA"
+     ],
+     "closing": "يحوّل الرؤى المالية والاستراتيجية المعقدة إلى أنظمة عملية وقرارات مدعومة بالتكنولوجيا تدفع نموًا قابلًا للقياس."
+    },
+    {
+     "name": "أحمد المغربي",
+     "role": "قائد استراتيجية وسياسات عامة · مدرب مؤسسي · مستشار تعلّم",
+     "lead": "قائد في الاستراتيجية والسياسات العامة، ومدرب مؤسسي، ومستشار تعلّم بخبرة تزيد عن 20 عامًا في فودافون مصر وأكثر من 10 سنوات في التدريب والتيسير المؤسسي.",
+     "body": "يشغل منصب مدير أول للسياسات العامة في فودافون مصر، بعد أدوار قيادية في التخطيط التجاري والاستراتيجي وتطوير الأعمال — بخبرة عملية في بناء الاستراتيجية وتنفيذها داخل شركة متعددة الجنسيات.",
+     "highlights": [
+      "أكثر من 20 سنة في فودافون",
+      "أكثر من 10 سنوات تدريب",
+      "مدير أول سياسات عامة",
+      "رضا متعلمين 97%"
+     ],
+     "credentials": [
+      "مدرب معتمد · ESLSCA",
+      "TOT · ESLSCA",
+      "20+ سنة فودافون مصر",
+      "10+ سنوات تدريب مؤسسي",
+      "97% · Storytelling for Influence"
+     ],
+     "closing": "يترجم التحديات الاستراتيجية والتنظيمية المعقدة إلى تجارب تعلّم عملية تعزّز اتخاذ القرار والتواصل والتنفيذ."
+    }
+   ]
+  },
   "clients": {
    "eyebrow": "العملاء",
    "headline": "فرق تدرّبت مع Mustaner",
@@ -1132,15 +1253,15 @@ window.MUSTANER_COPY = {
    "headline": "10 جلسات. 4 مراحل. 5 أسابيع.",
    "headline_plain": "10 جلسات. 4 مراحل.",
    "headline_mark": "5 أسابيع.",
-   "sub": "أمسيتان كل أسبوع، 4 ساعات لكل جلسة، من 28 سبتمبر إلى 28 أكتوبر 2026. آخر 4 جلسات تطبيق عملي لـ AI في الاستراتيجية.",
+   "sub": "أمسيتان كل أسبوع، 4 ساعات لكل جلسة، من 12 أكتوبر إلى 11 نوفمبر 2026. آخر 4 جلسات تطبيق عملي لـ AI في الاستراتيجية.",
    "summary_cells": [
     {
      "label": "البداية",
-     "value": "28 سبتمبر 2026"
+     "value": "12 أكتوبر 2026"
     },
     {
      "label": "النهاية",
-     "value": "28 أكتوبر 2026"
+     "value": "11 نوفمبر 2026"
     },
     {
      "label": "الأيام",
@@ -1156,14 +1277,15 @@ window.MUSTANER_COPY = {
     },
     {
      "label": "النظام",
-     "value": "حضوري · القاهرة الجديدة"
+     "value": "حضوري · كابيتالايز ذا ديستريكت فيل"
     }
    ],
    "col_session": "الجلسات",
    "col_phase": "المرحلة",
    "col_date": "التواريخ",
    "col_time": "التوقيت",
-   "note": "الجلسات الـ 10 كلها حضورية في القاهرة الجديدة. لا يوجد حضور أونلاين."
+   "note": "الجلسات الـ 10 كلها حضورية في كابيتالايز ذا ديستريكت فيل، القاهرة الجديدة. لا يوجد حضور أونلاين.",
+   "map_label": "افتح الموقع على خرائط جوجل"
   },
   "fees": {
       "eyebrow": "الاشتراك",
@@ -1185,7 +1307,7 @@ window.MUSTANER_COPY = {
       "offer_note": "نفس السعر على كل طرق الدفع. المقاعد تُغلق بانتهاء الحجز المبكر.",
       "includes_label": "الاشتراك يشمل",
       "includes": [
-         "40 ساعة تدريب حضوري على مدار 10 جلسات في القاهرة الجديدة.",
+         "40 ساعة تدريب حضوري على مدار 10 جلسات في كابيتالايز ذا ديستريكت فيل، القاهرة الجديدة.",
          "الدورة الاستراتيجية كاملة في 4 مراحل: تشخيص السوق، اختيار الاستراتيجية، التنفيذ، والاستراتيجية باستخدام AI.",
          "4 جلسات تطبيقية لتشغيل AI في الاستراتيجية: ذكاء السوق، التحليل، الصياغة، والتحكم في التنفيذ.",
          "حزمة أدوات الاستراتيجية الكلاسيكية المستخدمة عبر الجلسات العشر — تفاصيلها في المنهج.",
@@ -1196,7 +1318,7 @@ window.MUSTANER_COPY = {
       "payment_methods": [
          {
             "name": "Fawaterk",
-            "detail": "دفع إلكتروني آمن بالكارت. زر «احجز الآن» يفتح رابط الدفع على Fawaterk مباشرة."
+            "detail": "دفع إلكتروني آمن بالكارت. زر «ادفع الآن» يفتح صفحة دفع البرنامج على Fawaterk."
          },
          {
             "name": "تحويل بنكي",
@@ -1209,8 +1331,8 @@ window.MUSTANER_COPY = {
             "blurb": "ابعت على الرقم التالي، ثم واتساب الإيصال لتأكيد الحجز."
          }
       ],
-      "cta_primary": "احجز الآن",
-      "cta_secondary": "قدّم طلبك",
+      "cta_primary": "ادفع الآن",
+      "cta_secondary": "قدّم عبر واتساب",
       "payment_intro": "اختَر الطريقة المناسبة — نفس سعر الحجز المبكر لكل وسيلة.",
       "pay_bank": "البنك",
       "pay_account": "الحساب",
@@ -1236,7 +1358,7 @@ window.MUSTANER_COPY = {
     },
     {
      "q": "ماذا لو فاتتني جلسة؟",
-     "a": "المواعيد العشرة ثابتة ومعلنة: 28 و30 سبتمبر، و5 و7 و12 و14 و19 و21 و26 و28 أكتوبر، كل اثنين وأربعاء من 6:00 مساءً حتى 10:00 مساءً. الجلسات متتابعة عبر 4 مراحل، والغياب يكلّفك. لا توجد سياسة معلنة لتعويض الجلسات — فإن كنت تعرف مسبقًا أن موعدًا صعب عليك، اطرحه على WhatsApp قبل الدفع لا بعده."
+     "a": "المواعيد العشرة ثابتة ومعلنة: 12 و14 و19 و21 و26 و28 أكتوبر، و2 و4 و9 و11 نوفمبر، كل اثنين وأربعاء من 6:00 مساءً حتى 10:00 مساءً. الجلسات متتابعة عبر 4 مراحل، والغياب يكلّفك. لا توجد سياسة معلنة لتعويض الجلسات — فإن كنت تعرف مسبقًا أن موعدًا صعب عليك، اطرحه على WhatsApp قبل الدفع لا بعده."
     },
     {
      "q": "هل المحتوى نظري أم تطبيقي؟",
@@ -1256,28 +1378,28 @@ window.MUSTANER_COPY = {
     },
     {
      "q": "كيف أعرف أن البرنامج مناسب لحالتي؟",
-     "a": "هو مناسب لك إن كنت تتعامل مع استراتيجية غير واضحة أو ربحية ضعيفة أو غياب أنظمة أو بطء في اتخاذ القرار، وتريد طريقًا منظمًا للخروج بدلًا من قائمة نماذج جديدة. ولاختبار ذلك على حالتك تحديدًا، استخدم «قدّم طلبك» أو راسل +20 109 271 8547 واشرح التحدي قبل أن تلتزم."
+     "a": "هو مناسب لك إن كنت تتعامل مع استراتيجية غير واضحة أو ربحية ضعيفة أو غياب أنظمة أو بطء في اتخاذ القرار، وتريد طريقًا منظمًا للخروج بدلًا من قائمة نماذج جديدة. ولاختبار ذلك على حالتك تحديدًا، استخدم «قدّم الآن» على واتساب أو راسل +20 109 271 8547 واشرح التحدي قبل أن تلتزم."
     }
    ]
   },
   "finalcta": {
    "eyebrow": "الدفعة القادمة",
-   "headline": "القاعة تكتمل قبل 28 سبتمبر",
+   "headline": "القاعة تكتمل قبل 12 أكتوبر",
    "headline_plain": "القاعة تكتمل قبل",
-   "headline_mark": "28 سبتمبر",
-   "sub": "المقاعد محدودة بطبيعة التنسيق — العمل حضوري داخل القاعة، وليس webinar. احجز بسعر الحجز المبكر، أو أرسل بياناتك ليعود إليك الفريق.",
+   "headline_mark": "12 أكتوبر",
+   "sub": "المقاعد محدودة بطبيعة التنسيق — العمل حضوري داخل القاعة، وليس webinar. ادفع بسعر الحجز المبكر، أو قدّم على واتساب ليعود إليك الفريق.",
    "badge": "حجز مبكر · الدفعة القادمة · المقاعد محدودة",
    "visual_kicker": "في القاعة — مش على webinar",
    "price_label": "الحجز المبكر",
    "meta": [
       "10 جلسات · 40 ساعة",
       "الاثنين والأربعاء · 6–10 م",
-      "القاهرة الجديدة · حضوري",
-      "28 سبتمبر – 28 أكتوبر 2026"
+      "كابيتالايز ذا ديستريكت فيل · حضوري",
+      "12 أكتوبر – 11 نوفمبر 2026"
    ],
-   "fact_line": "10 جلسات · 40 ساعة · الاثنين والأربعاء من 6:00 مساءً حتى 10:00 مساءً · القاهرة الجديدة، حضوريًا · 28 سبتمبر إلى 28 أكتوبر 2026 · 12,000 جنيه للحجز المبكر بدلًا من 15,000 جنيه.",
-   "cta_primary": "احجز الآن",
-   "cta_secondary": "قدّم طلبك",
+   "fact_line": "10 جلسات · 40 ساعة · الاثنين والأربعاء من 6:00 مساءً حتى 10:00 مساءً · كابيتالايز ذا ديستريكت فيل، القاهرة الجديدة · 12 أكتوبر إلى 11 نوفمبر 2026 · 12,000 جنيه للحجز المبكر بدلًا من 15,000 جنيه.",
+   "cta_primary": "ادفع الآن",
+   "cta_secondary": "قدّم عبر واتساب",
    "cta_tertiary": "حمّل البروشور"
   },
   "footer": {

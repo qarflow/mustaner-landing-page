@@ -19,6 +19,7 @@ $parts = @(
   'components/sections/overview.html'
   'components/sections/audience.html'
   'components/sections/curriculum.html'
+  'components/sections/faculty.html'
   'components/sections/media.html'
   'components/sections/proof.html'
   'components/sections/schedule.html'
